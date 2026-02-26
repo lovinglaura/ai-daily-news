@@ -192,7 +192,7 @@ async function main() {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>金珂重点关注公司新闻动态</title>
+  <title>金珂重点关注AI行业新闻动态</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>*{font-family:system-ui,-apple-system,sans-serif}.card-hover{transition:all .3s}.card-hover:hover{transform:translateY(-2px)}</style>
@@ -200,7 +200,7 @@ async function main() {
 <body class="bg-gray-50 min-h-screen">
   <div class="max-w-6xl mx-auto px-4 py-8">
     <header class="mb-8">
-      <h1 class="text-2xl font-bold mb-2">📈 金珂重点关注公司新闻动态</h1>
+      <h1 class="text-2xl font-bold mb-2">📈 金珂重点关注AI行业新闻动态</h1>
       <p class="text-gray-600">深度分析完整展示 + 评分逻辑透明</p>
     </header>
 

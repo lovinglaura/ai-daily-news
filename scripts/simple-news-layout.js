@@ -145,7 +145,7 @@ function generateFullHtml(newsList) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>金珂重点关注公司新闻动态</title>
+  <title>金珂重点关注AI行业新闻动态</title>
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Font Awesome -->
@@ -238,7 +238,7 @@ function generateFullHtml(newsList) {
   <div class="news-container">
     <!-- 头部 -->
     <div class="header">
-      <h1>📈 金珂重点关注公司新闻动态</h1>
+      <h1>📈 金珂重点关注AI行业新闻动态</h1>
       <p>精选优质财经新闻 · 每日更新 · 专业分析</p>
     </div>
     

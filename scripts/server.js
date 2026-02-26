@@ -2,7 +2,7 @@
 
 /**
  * 本地测试服务器
- * 用于预览公司新闻网站
+ * 用于预览AI行业新闻网站
  */
 
 const http = require('http');
@@ -57,7 +57,7 @@ const server = http.createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`🚀 公司新闻网站本地服务器已启动`);
+  console.log(`🚀 AI行业新闻网站本地服务器已启动`);
   console.log(`📡 地址: http://localhost:${PORT}`);
   console.log(`⏰ 时间: ${new Date().toLocaleString('zh-CN')}`);
   console.log(`📁 主文件: ${INDEX_FILE}`);

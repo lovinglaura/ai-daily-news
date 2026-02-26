@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * 金珂重点关注公司新闻动态 - 核心抓取脚本
+ * 金珂重点关注AI行业新闻动态 - 核心抓取脚本
  * 
  * 三级搜索策略：
  * 1. 实时新闻（最近24小时）
@@ -27,55 +27,55 @@ const AUTHORITY_SOURCES = [
 // 配置 - 三级搜索策略
 const CONFIG = {
   companies: {
-    google: {
+    llm: {
       queries: [
-        { query: 'Google 谷歌 最新新闻 今天 实时', timeRange: '1d', priority: 1 },
-        { query: 'Google Alphabet 财报 盈利 AI产品发布', timeRange: '3d', priority: 2 },
-        { query: 'Google GOOGL 股价 分析 投资', timeRange: '3d', priority: 3 }
+        { query: '大模型 最新进展 发布 今天', timeRange: '1d', priority: 1 },
+        { query: 'GPT-5 Claude 3 Gemini 最新动态', timeRange: '3d', priority: 2 },
+        { query: '大模型 技术突破 应用落地', timeRange: '3d', priority: 3 }
       ],
-      ticker: 'GOOGL',
+      ticker: '大模型',
       color: 'bg-blue-100 text-blue-800',
-      icon: '🔍'
+      icon: '🤖'
     },
-    nvidia: {
+    ai_chip: {
       queries: [
-        { query: 'NVIDIA 英伟达 最新新闻 今天', timeRange: '1d', priority: 1 },
-        { query: 'NVIDIA 财报 GPU AI芯片 产品发布', timeRange: '3d', priority: 2 },
-        { query: 'NVDA 股价 分析 投资', timeRange: '3d', priority: 3 }
+        { query: 'AI芯片 最新发布 性能 今天', timeRange: '1d', priority: 1 },
+        { query: '英伟达 AMD 华为 昇腾 寒武纪 最新动态', timeRange: '3d', priority: 2 },
+        { query: 'GPU H100 H200 MI300 产能 价格', timeRange: '3d', priority: 3 }
       ],
-      ticker: 'NVDA',
+      ticker: 'AI芯片',
       color: 'bg-green-100 text-green-800',
       icon: '💻'
     },
-    tesla: {
+    genai: {
       queries: [
-        { query: 'Tesla 特斯拉 最新新闻 今天', timeRange: '1d', priority: 1 },
-        { query: 'Tesla 财报 电动车 自动驾驶 马斯克', timeRange: '3d', priority: 2 },
-        { query: 'TSLA 股价 分析 投资', timeRange: '3d',priority: 3 }
+        { query: '生成式AI 应用 产品 今天', timeRange: '1d', priority: 1 },
+        { query: 'AI绘画 AI视频 AI生成 最新产品', timeRange: '3d', priority: 2 },
+        { query: '生成式AI 商业化 投融资 政策', timeRange: '3d', priority: 3 }
       ],
-      ticker: 'TSLA',
-      color: 'bg-red-100 text-red-800',
-      icon: '🚗'
-    },
-    tencent: {
-      queries: [
-        { query: '腾讯 最新新闻 今天', timeRange: '1d', priority: 1 },
-        { query: '腾讯 财报 游戏 社交 投资', timeRange: '3d', priority: 2 },
-        { query: '0700.HK 股价 分析 投资', timeRange: '3d', priority: 3 }
-      ],
-      ticker: '0700.HK',
+      ticker: '生成式AI',
       color: 'bg-purple-100 text-purple-800',
-      icon: '🎮'
+      icon: '🎨'
     },
-    maotai: {
+    ai_industry: {
       queries: [
-        { query: '茅台 最新新闻 今天', timeRange: '1d', priority: 1 },
-        { query: '茅台 财报 白酒 消费', timeRange: '3d', priority: 2 },
-        { query: '600519.SS 股价 分析 投资', timeRange: '3d', priority: 3 }
+        { query: '人工智能 行业动态 政策 今天', timeRange: '1d', priority: 1 },
+        { query: 'AI 监管 法规 行业标准 最新', timeRange: '3d', priority: 2 },
+        { query: 'AI 创业 投融资 并购 动态', timeRange: '3d', priority: 3 }
       ],
-      ticker: '600519.SS',
-      color: 'bg-amber-100 text-amber-800',
-      icon: '🍶'
+      ticker: 'AI行业',
+      color: 'bg-orange-100 text-orange-800',
+      icon: '📈'
+    },
+    robot: {
+      queries: [
+        { query: '人形机器人 自动驾驶 最新发布 今天', timeRange: '1d', priority: 1 },
+        { query: '特斯拉Optimus 波士顿动力 小米机器人 最新', timeRange: '3d', priority: 2 },
+        { query: '机器人 商业化 应用场景 技术突破', timeRange: '3d', priority: 3 }
+      ],
+      ticker: '机器人',
+      color: 'bg-red-100 text-red-800',
+      icon: '🦾'
     }
   },
   
@@ -332,9 +332,9 @@ function getImpactDescription(score, type, level) {
  * 主函数 - 执行每日更新
  */
 async function main() {
-  console.log('🚀 金珂重点关注公司新闻动态 - 每日自动更新');
+  console.log('🚀 金珂重点关注AI行业新闻动态 - 每日自动更新');
   console.log('==================================================');
-  console.log('📈 覆盖公司: 谷歌、英伟达、特斯拉、腾讯、茅台');
+  console.log('📈 覆盖公司: 人工智能、大模型、AI芯片、生成式AI、机器人');
   console.log('🎯 重点关注: 影响股价的最新新闻');
   console.log('⏰ 时间: ' + new Date().toLocaleString('zh-CN'));
   console.log('');

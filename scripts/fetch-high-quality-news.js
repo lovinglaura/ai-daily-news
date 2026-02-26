@@ -147,7 +147,7 @@ function filterHighQualityNews(newsItems) {
 }
 
 /**
- * 搜索公司新闻
+ * 搜索AI行业新闻
  */
 async function searchCompanyNews(companyKey, companyConfig) {
   console.log(`\n📡 搜索 ${companyConfig.name} 优质新闻...`);

@@ -72,7 +72,7 @@ function generateFullHtml(newsList) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>金珂重点关注公司新闻动态</title>
+  <title>金珂重点关注AI行业新闻动态</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -91,8 +91,8 @@ function generateFullHtml(newsList) {
     <header class="mb-10">
       <div class="flex flex-col md:flex-row md:items-center justify-between mb-6">
         <div>
-          <h1 class="text-3xl font-bold text-gray-900">📈 金珂重点关注公司新闻动态</h1>
-          <p class="text-gray-600 mt-2">实时追踪谷歌、英伟达、特斯拉、腾讯、茅台等公司的关键新闻</p>
+          <h1 class="text-3xl font-bold text-gray-900">📈 金珂重点关注AI行业新闻动态</h1>
+          <p class="text-gray-600 mt-2">实时追踪人工智能、大模型、AI芯片、生成式AI、机器人等公司的关键新闻</p>
         </div>
         <div class="mt-4 md:mt-0">
           <div class="inline-flex items-center px-4 py-2 bg-white rounded-lg shadow-sm border border-gray-200">

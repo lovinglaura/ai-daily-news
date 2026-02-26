@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * 生成公司新闻动态HTML
+ * 生成AI行业新闻动态HTML
  */
 
 const fs = require('fs').promises;
@@ -28,40 +28,40 @@ const OUTPUT_FILE = path.join(__dirname, 'index.html');
 
 // 公司信息
 const COMPANY_INFO = {
-  google: { 
-    name: '谷歌', 
-    ticker: 'GOOGL', 
+  llm: { 
+    name: '大模型', 
+    ticker: '大模型', 
     color: 'bg-blue-100 text-blue-800', 
-    icon: '🔍',
+    icon: '🤖',
     bgColor: 'from-blue-50 to-blue-100'
   },
-  nvidia: { 
-    name: '英伟达', 
-    ticker: 'NVDA', 
+  ai_chip: { 
+    name: 'AI芯片', 
+    ticker: 'AI芯片', 
     color: 'bg-green-100 text-green-800', 
     icon: '💻',
     bgColor: 'from-green-50 to-green-100'
   },
-  tesla: { 
-    name: '特斯拉', 
-    ticker: 'TSLA', 
-    color: 'bg-red-100 text-red-800', 
-    icon: '🚗',
-    bgColor: 'from-red-50 to-red-100'
-  },
-  tencent: { 
-    name: '腾讯', 
-    ticker: '0700.HK', 
+  genai: { 
+    name: '生成式AI', 
+    ticker: '生成式AI', 
     color: 'bg-purple-100 text-purple-800', 
-    icon: '🎮',
+    icon: '🎨',
     bgColor: 'from-purple-50 to-purple-100'
   },
-  maotai: { 
-    name: '茅台', 
-    ticker: '600519.SS', 
-    color: 'bg-amber-100 text-amber-800', 
-    icon: '🍶',
-    bgColor: 'from-amber-50 to-amber-100'
+  ai_industry: { 
+    name: 'AI行业', 
+    ticker: 'AI行业', 
+    color: 'bg-orange-100 text-orange-800', 
+    icon: '📈',
+    bgColor: 'from-orange-50 to-orange-100'
+  },
+  robot: { 
+    name: '机器人', 
+    ticker: '机器人', 
+    color: 'bg-red-100 text-red-800', 
+    icon: '🦾',
+    bgColor: 'from-red-50 to-red-100'
   }
 };
 
@@ -75,7 +75,7 @@ function generateHTML(data) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>金珂重点关注公司新闻动态 | 每日公司新闻深度分析</title>
+    <title>金珂重点关注AI行业新闻动态 | 每日AI行业新闻深度分析</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
@@ -101,7 +101,7 @@ function generateHTML(data) {
             <div class="flex items-center gap-3 mb-3">
                 <span class="text-5xl">📈</span>
                 <div>
-                    <h1 class="text-3xl md:text-4xl font-bold mb-1">金珂重点关注公司新闻动态</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold mb-1">金珂重点关注AI行业新闻动态</h1>
                     <p class="text-white/90 text-lg font-medium">深度分析 · 股价影响评估 · 每日更新</p>
                 </div>
             </div>
@@ -124,7 +124,7 @@ function generateHTML(data) {
     <div class="bg-white border-b border-gray-200 py-6 px-4 shadow-sm">
         <div class="max-w-7xl mx-auto">
             <div class="flex items-center justify-between mb-4">
-                <h2 class="text-lg font-bold text-gray-900">📈 公司新闻统计</h2>
+                <h2 class="text-lg font-bold text-gray-900">📈 AI行业新闻统计</h2>
                 <span class="text-sm text-gray-500">共覆盖 ${data.companies.length} 家公司</span>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
@@ -269,7 +269,7 @@ function generateHTML(data) {
                 </div>
             </div>
             <div class="mt-4 text-center text-xs text-gray-500">
-                <p>© 2026 金珂重点关注公司新闻动态 · 每日自动更新 · 深度分析 · 股价影响评估</p>
+                <p>© 2026 金珂重点关注AI行业新闻动态 · 每日自动更新 · 深度分析 · 股价影响评估</p>
                 <p class="mt-1">GitHub: <a href="https://github.com/lovinglaura/company-news" class="text-blue-600 hover:text-blue-800">lovinglaura/company-news</a></p>
             </div>
         </div>
@@ -282,7 +282,7 @@ function generateHTML(data) {
  * 主函数
  */
 async function main() {
-  console.log('🔨 生成公司新闻动态HTML...');
+  console.log('🔨 生成AI行业新闻动态HTML...');
   
   try {
     // 读取数据
