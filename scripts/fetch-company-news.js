@@ -239,6 +239,12 @@ async function quickAnalyze(article, companyInfo, queryPriority) {
   const rawContent = await fetchArticleContent(article.url);
   const deepSummary = await summarizeArticle(title, rawContent);
   
+  // 过滤原文内容，提取纯文本
+  let cleanContent = rawContent.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '');
+  cleanContent = cleanContent.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '');
+  cleanContent = cleanContent.replace(/<[^>]*>/g, '');
+  cleanContent = cleanContent.replace(/[^\u4e00-\u9fa50-9，。；：“”‘’（）【】、%+]/g, '').trim();
+  
   // 基础评分
   let score = 5;
   
@@ -251,7 +257,7 @@ async function quickAnalyze(article, companyInfo, queryPriority) {
   
   // 检查高影响关键词
   for (const word of highImpactWords) {
-    if (title.includes(word)) {
+    if (title.includes(word) || cleanContent.includes(word)) {
       score = 8;
       impactLevel = '高';
       impactType = '短期';
@@ -262,7 +268,7 @@ async function quickAnalyze(article, companyInfo, queryPriority) {
   // 检查中影响关键词
   if (score === 5) {
     for (const word of mediumImpactWords) {
-      if (title.includes(word)) {
+      if (title.includes(word) || cleanContent.includes(word)) {
         score = 7;
         impactLevel = '中';
         impactType = '中期';
@@ -275,21 +281,22 @@ async function quickAnalyze(article, companyInfo, queryPriority) {
   score *= CONFIG.priorityWeights[queryPriority] || 1.0;
   score = Math.min(10, Math.max(1, score));
   
-  // 提取简单数据
-  const keyData = [];
-  const numberPattern = /(\d+(?:\.\d+)?%)/g;
-  const matches = title.match(numberPattern);
-  if (matches) {
-    keyData.push(...matches.slice(0, 3));
+  // 提取重要信息 - 从原文提取完整金句，不是关键词
+  const importantInfo = [];
+  const infoPatterns = ['营收', '净利润', '增长', '下降', '发布', '合作', '投资', '收购', '突破', '产能', '订单'];
+  if (cleanContent.length > 50) {
+    const sentences = cleanContent.split(/[。；]/);
+    for (const sentence of sentences) {
+      if (infoPatterns.some(pattern => sentence.includes(pattern)) && sentence.trim().length > 15 && sentence.trim().length < 100) {
+        importantInfo.push(sentence.trim() + '。');
+        if (importantInfo.length >= 3) break; // 最多提取3条重要信息
+      }
+    }
   }
   
-  // 提取重要信息
-  const importantInfo = [];
-  const infoPatterns = ['发布', '合作', '订单', '增长', '突破'];
-  for (const pattern of infoPatterns) {
-    if (title.includes(pattern)) {
-      importantInfo.push(pattern);
-    }
+  // 如果没有从原文提取到，就从标题提取
+  if (importantInfo.length === 0) {
+    importantInfo.push(title);
   }
   
   // 确定逻辑链条
@@ -316,7 +323,7 @@ async function quickAnalyze(article, companyInfo, queryPriority) {
       description: getImpactDescription(score, impactType, impactLevel)
     },
     logicChain: logicChain,
-    keyData: keyData,
+    keyData: [],
     importantInfo: importantInfo,
     deepSummary: deepSummary
   };

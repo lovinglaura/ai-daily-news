@@ -184,7 +184,7 @@ function generateHTML(data) {
                 <!-- 标题 -->
                 <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">${news.title}</h3>
 
-                <!-- 深度摘要 -->
+                <!-- 深度解读 -->
                 <div class="bg-gradient-to-r ${company.bgColor} border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
                     <div class="font-semibold text-blue-800 mb-2 flex items-center">
                         <span class="mr-2">📖</span>
@@ -193,42 +193,14 @@ function generateHTML(data) {
                     <p class="text-blue-900 text-sm leading-relaxed">${news.deepSummary || news.summary || '暂无深度分析内容'}</p>
                 </div>
 
-                <!-- 逻辑框架 -->
-                <div class="mt-2 flex items-center text-sm text-gray-600">
-                    <span class="font-medium mr-2">🔗 逻辑框架:</span>
-                    <span class="px-3 py-1 bg-gray-100 rounded-full">${news.logicChain}</span>
-                </div>
-
-                <!-- 关键数据 -->
-                ${news.keyData && news.keyData.length > 0 ? `
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">📊 关键数据</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        ${news.keyData.map(item => `<li class="flex items-start"><span class="mr-2">📊</span><span>${item}</span></li>`).join('')}
-                    </ul>
-                </div>` : ''}
-
                 <!-- 重要信息 -->
                 ${news.importantInfo && news.importantInfo.length > 0 ? `
-                <div class="mt-3">
-                    <div class="text-sm font-semibold text-gray-700 mb-1">🎯 重要信息</div>
-                    <div class="flex flex-wrap gap-1">
-                        ${news.importantInfo.map(info => `<span class="px-2 py-1 bg-indigo-50 text-indigo-700 text-xs rounded border border-indigo-200">${info}</span>`).join('')}
-                    </div>
-                </div>` : ''}
-
-                <!-- 股价影响 -->
                 <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">💰 股价影响评估</div>
-                    <div class="flex items-center gap-2">
-                        <span class="px-2 py-1 ${news.stockImpact.level === '高' ? 'bg-red-100 text-red-800' : 
-                                              news.stockImpact.level === '中' ? 'bg-amber-100 text-amber-800' : 
-                                              'bg-blue-100 text-blue-800'} text-xs rounded font-medium">
-                            ${news.stockImpact.level}影响
-                        </span>
-                        <span class="text-sm text-gray-600">${news.stockImpact.description}</span>
-                    </div>
-                </div>
+                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
+                    <ul class="space-y-1 text-sm text-gray-700">
+                        ${news.importantInfo.map(info => `<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">${info}</span></li>`).join('')}
+                    </ul>
+                </div>` : ''}
 
                 <!-- 页脚 -->
                 <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
