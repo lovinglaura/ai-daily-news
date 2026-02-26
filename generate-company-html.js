@@ -193,8 +193,8 @@ function generateHTML(data) {
                     <p class="text-blue-900 text-sm leading-relaxed">${news.deepSummary || news.summary || '暂无深度分析内容'}</p>
                 </div>
 
-                <!-- 重要信息 -->
-                ${news.importantInfo && news.importantInfo.length > 0 ? `
+                <!-- 重要信息：如果和深度解读内容重复则不显示 -->
+                ${news.importantInfo && news.importantInfo.length > 0 && !news.importantInfo.every(info => news.deepSummary.includes(info)) ? `
                 <div class="mt-4 pt-4 border-t border-gray-200">
                     <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
                     <ul class="space-y-1 text-sm text-gray-700">

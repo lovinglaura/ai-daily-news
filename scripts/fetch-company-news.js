@@ -160,8 +160,18 @@ async function summarizeArticle(title, content) {
   let summary = keySentences.join('。').trim();
   if (!summary.endsWith('。')) summary += '。';
   
-  // 确保内容完整，不省略
-  return summary.length > 0 ? summary : content.substring(0, 500).trim();
+  // 确保内容完整，不省略，同时去除和标题重复的内容
+  let finalSummary = summary.length > 0 ? summary : content.substring(0, 500).trim();
+  // 去除和标题重复的部分
+  if (title && finalSummary.includes(title.trim())) {
+    finalSummary = finalSummary.replace(title.trim(), '').trim();
+  }
+  // 如果去除后内容太短，就保留标题+核心内容，但避免重复
+  if (finalSummary.length < 30) {
+    finalSummary = content.substring(0, 300).replace(title.trim(), '').trim();
+  }
+  if (!finalSummary.endsWith('。')) finalSummary += '。';
+  return finalSummary;
 }
 
 /**
