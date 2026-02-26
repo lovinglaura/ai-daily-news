@@ -127,11 +127,15 @@ async function summarizeArticle(title, content) {
   content = content.replace(/var\s+.*?;|let\s+.*?;|const\s+.*?;/gi, '');
   content = content.replace(/window\..*?;|document\..*?;|navigator\..*?;/gi, '');
   content = content.replace(/location\..*?;|userAgent|isAndroid|isIOS|isWechat|isQQ/gi, '');
+  // 先过滤所有ASCII控制字符（0x00-0x1F, 0x7F）
+  content = content.replace(/[\x00-\x1F\x7F]/g, '');
   // 过滤所有乱码、特殊符号、不可见字符，只保留中文、数字、中文标点
   content = content.replace(/[^\u4e00-\u9fa50-9，。；：“”‘’（）【】、%+]/g, '');
   // 过滤无意义的纯数字串、乱码数字字符
   content = content.replace(/\d{6,}/g, ''); // 过滤6位以上连续无意义数字串
   content = content.replace(/([^\u4e00-\u9fa5%+])(\d+)([^\u4e00-\u9fa5%+])/g, '$1$3'); // 过滤孤立无意义数字
+  // 过滤连续多个重复符号
+  content = content.replace(/[，。；：“”‘’（）【】、+%]{2,}/g, s => s[0]);
   // 过滤掉所有非核心信息：来源、发布时间、作者、编辑、媒体号、地理位置、平台信息、时间戳、媒体名称等
   content = content.replace(/来源：.*?([\n。])/g, '$1')
     .replace(/发布时间：.*?([\n。])/g, '$1')
