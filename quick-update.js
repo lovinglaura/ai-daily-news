@@ -11,7 +11,7 @@ async function quickUpdate() {
   console.log('🚀 快速更新HTML为真实新闻...');
   
   // 读取真实新闻数据
-  const dataFile = path.join(__dirname, 'scripts', 'data', 'real-news-2026-02-25.json');
+  const dataFile = path.join(__dirname, 'scripts', 'data', 'real-news-2026-03-08.json');
   const htmlFile = path.join(__dirname, 'index.html');
   
   try {
