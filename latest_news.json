@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "analysis": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega...",
+    "key_points": [
+      "Railway, a San Francisco-based",
+      "TQ Ventures led the round, wit",
+      "The investment values Railway "
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+  },
+  {
+    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "analysis": "The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month d...",
+    "key_points": [
+      "The artificial intelligence co",
+      "Claude Code, Anthropic's termi",
+      "But its pricing — ranging from"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free"
+  },
+  {
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "analysis": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ...",
+    "key_points": [
+      "Alfred Wahlforss was running o",
+      "His startup, Listen Labs, need",
+      "So he spent $5,000 — a fifth o"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai"
+  },
+  {
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "analysis": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o...",
+    "key_points": [
+      "Salesforce on Tuesday launched",
+      "The new Slackbot, now generall",
+      "The launch comes as Salesforce"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+  },
+  {
+    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "analysis": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics proce...",
+    "key_points": [
+      "Nous Research, the open-source",
+      "The model, called NousCoder-14",
+      "The simultaneous developments "
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in"
+  },
+  {
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "analysis": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.The launc...",
+    "key_points": [
+      "Anthropic released Cowork on M",
+      "The launch marks a major infle",
+      "\"Cowork lets you complete non-"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.5,
+    "date": "2026-03-14",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no"
+  },
+  {
+    "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+    "analysis": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.  Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomou...",
+    "key_points": [
+      "Feng Qingyang had always hoped",
+      "Feng, a 27-year-old software e"
+    ],
+    "category": "📈 AI行业",
+    "score": 7.5,
+    "date": "2026-03-14",
+    "source": "Artificial intelligence – MIT Technology Review",
+    "link": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/"
+  },
+  {
+    "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
+    "analysis": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squ...",
+    "key_points": [
+      "Pokémon Go was the world’s fir",
+      "Released in 2016 by the Google",
+      "From Chicago to Oslo to Enoshi"
+    ],
+    "category": "📈 AI行业",
+    "score": 7.5,
+    "date": "2026-03-14",
+    "source": "Artificial intelligence – MIT Technology Review",
+    "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/"
+  },
+  {
+    "title": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’",
+    "analysis": "According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in history — Google’s $32 billion deal, finalized after a declined 2024 ...",
+    "key_points": [
+      "According to Index Ventures Pa",
+      "” Those tailwinds powered what"
+    ],
+    "category": "📈 AI行业",
+    "score": 7.4,
+    "date": "2026-03-14",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "link": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/"
+  },
+  {
+    "title": "Before quantum computing arrives, this startup wants enterprises already running on it",
+    "analysis": "After selling his AI startup to AMD for $665 million, Peter Sarlin is back with Qutwo, a new venture building the infrastructure it believes enterprises will need when quantum computing finally arrives.",
+    "key_points": [
+      "After selling his AI startup t"
+    ],
+    "category": "💻 AI芯片",
+    "score": 7.4,
+    "date": "2026-03-14",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "link": "https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/"
+  }
+]
