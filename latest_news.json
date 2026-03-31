@@ -1,138 +1,167 @@
 [
   {
-    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
-    "analysis": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega...",
+    "title": "阿里发布Qwen3.5-Omni全模态大模型，215项任务SOTA超越Gemini-3.1 Pro",
+    "analysis": "2026年3月30日，阿里正式发布千问新一代全模态大模型Qwen3.5-Omni，采用混合注意力MoE架构，支持图片、视频、语音、文字等全模态输入输出。在音视频理解、识别、交互等215项任务中取得SOTA，超越Gemini-3.1 Pro成为全球最强全模态大模型之一。支持113种语言/方言识别和36种语言语音生成，新增音视频编程能力，用户可通过口述+草图直接生成产品原型。API定价每百万Tokens输入不到0.8元，仅为Gemini的1/10。",
     "key_points": [
-      "Railway, a San Francisco-based",
-      "TQ Ventures led the round, wit",
-      "The investment values Railway "
+      "215项任务SOTA，性能超越Gemini-3.1 Pro",
+      "支持113种语言识别、36种语言语音生成",
+      "音视频编程能力实现\"动动嘴即可编程\"",
+      "API价格仅为竞品1/10，已上线阿里云百炼平台"
     ],
     "category": "🤖 大模型",
-    "score": 7.9,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
+    "score": 9.2,
+    "date": "2026-03-31",
+    "source": "腾讯网 | 快科技",
+    "link": "http://news.qq.com/rain/a/20260330A08XV800"
   },
   {
-    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
-    "analysis": "The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month d...",
+    "title": "OpenAI发布o3/o4-mini推理模型，ARC-AGI测试得分提升10倍",
+    "analysis": "2026年3月29日，OpenAI突袭式发布全新推理模型o3和o4-mini，专门针对抽象推理测试ARC-AGI优化，在ARC-AGI-3测试中得分从GPT-5.4的0.26%飙升至2.8%，实现10倍突破。模型首次引入推理时计算和自然语言程序搜索机制，实现\"慢思考\"推理能力，可生成解题程序并应用于同类问题，解决传统大模型复杂逻辑推理短板。",
     "key_points": [
-      "The artificial intelligence co",
-      "Claude Code, Anthropic's termi",
-      "But its pricing — ranging from"
+      "ARC-AGI测试得分较GPT-5.4提升10倍",
+      "首次实现推理时计算和自然语言程序搜索",
+      "o3推理时间30-60秒，成本为GPT-5.4的50-100倍",
+      "o4-mini定位轻量推理版，成本仅为5-10倍"
     ],
     "category": "🤖 大模型",
-    "score": 7.9,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free"
+    "score": 8.9,
+    "date": "2026-03-31",
+    "source": "CSDN博客",
+    "link": "https://blog.csdn.net/shaobingj126/article/details/159647186"
   },
   {
-    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
-    "analysis": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ...",
+    "title": "白宫发布《国家人工智能政策框架》，明确\"发展优先\"治理纲领",
+    "analysis": "美国白宫于3月20日发布4页《国家人工智能政策框架：立法建议》，将AI治理核心定位为\"维护美国AI领先地位\"，提出七大核心方向：儿童保护、AI基础设施建设、版权模糊处理、言论自由保护、反对新设专门AI监管机构、劳动力培训、联邦优先统一规则。政策明确倾向轻监管、强竞争，避免规则过密拖慢产业扩张，与欧盟风险分级监管路线形成明显差异。",
     "key_points": [
-      "Alfred Wahlforss was running o",
-      "His startup, Listen Labs, need",
-      "So he spent $5,000 — a fifth o"
+      "明确\"发展优先\"治理纲领，反对新设联邦AI监管机构",
+      "主张模型训练不违反版权法，留待法院判决",
+      "推动联邦规则优先，限制州级AI法律过度监管",
+      "重点关注数据中心电价、审批效率等基础设施问题"
+    ],
+    "category": "📑 政策法规",
+    "score": 9.0,
+    "date": "2026-03-31",
+    "source": "澎湃新闻 | 网易",
+    "link": "http://m.163.com/dy/article/KPB7L43S0514R9P4.html"
+  },
+  {
+    "title": "昆仑万维发布2026 AGI战略，三大世界级大模型亮相中关村论坛",
+    "analysis": "昆仑万维在2026中关村论坛发布AGI\"3+1\"生态战略，推出三大全球第一梯队大模型：Matrix-Game 3.0游戏世界模型实现720P 40FPS实时生成，SkyReels V4视频大模型登顶全球音视频生成榜单双第一，Mureka V9音乐大模型实现可控创作意图表达。战略目标是构建AI平台经济，赋予创作者匹敌公司级的全栈生产力。",
+    "key_points": [
+      "Matrix-Game 3.0：工业级实时交互世界模型，长时序一致性",
+      "SkyReels V4：全球音视频生成双赛道第一，支持音画同步生成",
+      "Mureka V9：音乐创作可控性大幅提升，支持段落化意图表达",
+      "\"3+1\"战略：三大内容平台+超级智能体操作系统"
     ],
     "category": "🤖 大模型",
-    "score": 7.9,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai"
+    "score": 8.8,
+    "date": "2026-03-31",
+    "source": "迈博汇金 | 华鑫证券研报",
+    "link": "http://m.microbell.com/wap_detail.aspx?id=9ab8e0440e7007a4269a913c971cdc9e"
   },
   {
-    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
-    "analysis": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o...",
+    "title": "Anthropic升级Claude电脑直控能力，AI Agent进入直接执行阶段",
+    "analysis": "Anthropic近期升级Claude Code与Claude Cowork，无需接口支持即可模拟人类操作逻辑，自主完成打开文件、操控浏览器、点击滚动等完整流程，同步上线Dispatch跨设备功能，打通手机与电脑任务链路。海外AI Agent竞争已从文本交互、插件调用升级为对真实数字环境的直接执行能力，\"可执行、可授权、可中断\"成为落地关键。",
     "key_points": [
-      "Salesforce on Tuesday launched",
-      "The new Slackbot, now generall",
-      "The launch comes as Salesforce"
+      "支持无接口模拟人类操作电脑全流程",
+      "跨设备功能打通手机与电脑任务链路",
+      "AI Agent从\"回答问题\"转向\"执行任务\"",
+      "办公、开发场景生产力价值大幅提升"
+    ],
+    "category": "🤖 智能体",
+    "score": 8.6,
+    "date": "2026-03-31",
+    "source": "招商证券研报",
+    "link": "http://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/industry/rptid/828173362720/index.phtml"
+  },
+  {
+    "title": "国产大模型连续一个月调用量超越海外模型，量价齐升趋势明确",
+    "analysis": "据全球大模型聚合平台OpenRouter数据，上周(3.23-3.29)全球模型调用量前九名中国产模型占六席，总调用量9.82T，同比增长33.4%，连续一个月超过海外模型。OpenClaw智能体是本轮Token消耗增长核心驱动，20%的Token消耗由其贡献。大模型厂商与云厂商先后开启涨价周期，\"量价齐升\"成为大模型市场显著特征。",
+    "key_points": [
+      "国产模型总调用量9.82T，海外仅2.99T",
+      "OpenClaw贡献20% Token消耗，Agent时代需求爆发",
+      "智谱、阿里云、腾讯云等先后宣布涨价",
+      "算力供需失衡推动云计算进入涨价周期"
+    ],
+    "category": "📈 行业动态",
+    "score": 8.7,
+    "date": "2026-03-31",
+    "source": "中国青年网 | 第一财经",
+    "link": "http://t.m.youth.cn/transfer/index/url/news.youth.cn/jsxw/202603/t20260330_16582195.htm"
+  },
+  {
+    "title": "阿里云发布2026年AI趋势展望，六大核心方向明确",
+    "analysis": "阿里云研究院发布《2026年AI趋势展望》，指出AI发展六大核心方向：1) AI优先的技术基座重构，云基础设施向AI原生演进；2) 大模型价值回归业务实效，领域特定模型(DSLM)快速发展；3) AI原生开发平台普及，智能编码成为新生产力；4) 跨越ROI鸿沟，构建清晰价值评估体系；5) 行动智能觉醒，AI具备物理世界执行能力；6) 组织人才持续进化，人机协同成为主流工作模式。",
+    "key_points": [
+      "2027年60%企业将优先选择AI优化的云基础设施",
+      "领域模型比通用大模型精准度更高、成本更低",
+      "2026年75%低代码用户来自非技术业务部门",
+      "95%GenAI试点未产生 measurable 商业回报，2026是价值落地关键年"
+    ],
+    "category": "📈 行业动态",
+    "score": 8.4,
+    "date": "2026-03-31",
+    "source": "钛媒体 | 新浪财经",
+    "link": "http://finance.sina.cn/stock/jdts/2026-03-31/detail-inhsvshh5920037.d.html"
+  },
+  {
+    "title": "月之暗面Kimi K2.5 ARR突破1亿美金，企业预付千万抢算力",
+    "analysis": "月之暗面发布Kimi K2.5模型仅一个月，年度经常性收入(ARR)突破1亿美元，跻身全球AI商业化第一梯队。模型主打多智能体集群(Agent Swarm)能力，支持多个AI Agent并行协作处理复杂任务。API供应配额紧张，企业客户不惜开出千万美元级预付担保，只为获得稳定算力供应。公司估值有望在新一轮融资后达到180亿美元。",
+    "key_points": [
+      "发布1个月ARR破1亿美金，商业化能力行业领先",
+      "多智能体集群功能支持复杂任务并行处理",
+      "企业预付千万美元锁定算力配额",
+      "最新估值有望达180亿美元，位列AI六小虎前列"
     ],
     "category": "🤖 大模型",
-    "score": 7.9,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
+    "score": 8.5,
+    "date": "2026-03-31",
+    "source": "搜狐网",
+    "link": "https://m.sohu.com/a/1003185997_121956424/"
   },
   {
-    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
-    "analysis": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics proce...",
+    "title": "2026中关村论坛多项硬核AI成果发布，具身智能、世界模型突破",
+    "analysis": "2026中关村论坛集中发布多项AI硬核成果：生数科技推出世界模型提升机器人泛化能力，支持下棋、叠衣服等自主决策任务；光轮智能作为具身数据独角兽，已积累1000万小时具身数据，推出工业级仿真评测平台RoboFinals；探微芯联发布Scale-Up超节点通信互联方案，解决GPU多卡通信瓶颈。2025年北京AI产业规模达4500亿元，独角兽企业占全国超半数。",
     "key_points": [
-      "Nous Research, the open-source",
-      "The model, called NousCoder-14",
-      "The simultaneous developments "
+      "世界模型落地机器人场景，实现复杂自主决策",
+      "具身数据规模化元年开启，2026年率先落地工业场景",
+      "国产GPU高速互联方案突破，填补基础设施空白",
+      "北京AI产业规模4500亿，独角兽占全国超50%"
     ],
-    "category": "🤖 大模型",
-    "score": 7.9,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in"
+    "category": "📈 行业动态",
+    "score": 8.5,
+    "date": "2026-03-31",
+    "source": "中国证券报 | 云南网",
+    "link": "https://news.yunnan.cn/system/2026/03/30/033940294.shtml"
   },
   {
-    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
-    "analysis": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.The launc...",
+    "title": "奥尼电子发布龙虾工作站全栈AI推理算力产品，与沐曦达成战略合作",
+    "analysis": "奥尼电子发布\"奥尼龙虾\"工作站全栈产品，覆盖个人入门级到企业高端级全场景AI推理需求，支持本地部署、开箱即用、云边协同，解决数据安全与算力成本痛点。与国产GPU厂商沐曦股份达成深度战略合作，工作站搭载沐曦高性能GPU，推动国产芯片与算力硬件融合。公司定位AI推理算力龙头企业，助力粤港澳大湾区AI产业落地。",
     "key_points": [
-      "Anthropic released Cowork on M",
-      "The launch marks a major infle",
-      "\"Cowork lets you complete non-"
+      "6款机型覆盖2卡到集群全场景推理需求",
+      "本地部署保障数据安全，满足高合规场景要求",
+      "搭载沐曦国产GPU，供应链自主可控",
+      "Token消耗指数级增长，本地化推理算力成新焦点"
     ],
-    "category": "🤖 大模型",
-    "score": 7.5,
-    "date": "2026-03-14",
-    "source": "AI | VentureBeat",
-    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no"
+    "category": "💻 算力芯片",
+    "score": 8.3,
+    "date": "2026-03-31",
+    "source": "新浪看点",
+    "link": "https://k.sina.cn/article_7857201856_1d45362c001903t8q8.html"
   },
   {
-    "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
-    "analysis": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast.  Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomou...",
+    "title": "AIGC行业政策密集落地，技能认证成为人才核心竞争力",
+    "analysis": "2026年AIGC行业进入合规发展元年，《AIGC技术应用监管暂行办法》《生成式人工智能服务管理细则》相继实施，明确内容审核、责任主体等合规要求。各地累计投入超120亿元扶持资金，AIGC相关岗位招聘需求同比增长68.7%，具备权威技能认证的从业者薪资高出普通从业者35%-50%。中国电子学会AI智能体应用开发工程师认证成为行业热门。",
     "key_points": [
-      "Feng Qingyang had always hoped",
-      "Feng, a 27-year-old software e"
+      "监管细则明确，合规成为企业生存底线",
+      "一季度AIGC市场规模896亿元，同比增长42.3%",
+      "AI智能体开发岗位缺口最大，人才需求爆发",
+      "权威技能认证薪资溢价35%以上"
     ],
-    "category": "📈 AI行业",
-    "score": 7.5,
-    "date": "2026-03-14",
-    "source": "Artificial intelligence – MIT Technology Review",
-    "link": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/"
-  },
-  {
-    "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
-    "analysis": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squ...",
-    "key_points": [
-      "Pokémon Go was the world’s fir",
-      "Released in 2016 by the Google",
-      "From Chicago to Oslo to Enoshi"
-    ],
-    "category": "📈 AI行业",
-    "score": 7.5,
-    "date": "2026-03-14",
-    "source": "Artificial intelligence – MIT Technology Review",
-    "link": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/"
-  },
-  {
-    "title": "The $32B acquisition that one VC is calling the ‘Deal of the Decade’",
-    "analysis": "According to Index Ventures Partner Shardul Shah, cybersecurity startup Wiz sits “at the center of three tailwinds: AI, cloud, and security spend.” Those tailwinds powered what just became the largest venture-backed acquisition in history — Google’s $32 billion deal, finalized after a declined 2024 ...",
-    "key_points": [
-      "According to Index Ventures Pa",
-      "” Those tailwinds powered what"
-    ],
-    "category": "📈 AI行业",
-    "score": 7.4,
-    "date": "2026-03-14",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "link": "https://techcrunch.com/video/the-32b-acquisition-that-one-vc-is-calling-the-deal-of-the-decade/"
-  },
-  {
-    "title": "Before quantum computing arrives, this startup wants enterprises already running on it",
-    "analysis": "After selling his AI startup to AMD for $665 million, Peter Sarlin is back with Qutwo, a new venture building the infrastructure it believes enterprises will need when quantum computing finally arrives.",
-    "key_points": [
-      "After selling his AI startup t"
-    ],
-    "category": "💻 AI芯片",
-    "score": 7.4,
-    "date": "2026-03-14",
-    "source": "AI News & Artificial Intelligence | TechCrunch",
-    "link": "https://techcrunch.com/2026/03/12/before-quantum-computing-arrives-this-startup-wants-enterprises-already-running-on-it/"
+    "category": "📑 政策法规",
+    "score": 8.2,
+    "date": "2026-03-31",
+    "source": "搜狐网",
+    "link": "https://m.sohu.com/a/1002897629_122623539/"
   }
 ]
