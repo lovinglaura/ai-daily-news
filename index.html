@@ -1,803 +1,226 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>金珂重点关注AI行业新闻动态 | 每日AI行业新闻深度分析</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-        }
-        .gradient-bg {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        }
-        .card-hover {
-            transition: all 0.3s ease;
-        }
-        .card-hover:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每日AI行业新闻动态 | 高价值AI资讯</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    *{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+    body{background:#f5f7fa;margin:0;padding:20px}
+    .container{max-width:1200px;margin:0 auto}
+    .header{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:white;padding:30px;border-radius:12px;margin-bottom:30px;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+    .header h1{font-size:28px;font-weight:700;margin:0 0 10px 0}
+    .header p{font-size:16px;opacity:0.9;margin:0}
+    .stats-bar{background:white;padding:20px;border-radius:8px;box-shadow:0 2px 4px rgba(0,0,0,0.05);margin-bottom:20px;display:flex;justify-content:space-around}
+    .stat-item{text-align:center}
+    .stat-number{font-size:24px;font-weight:700;color:#667eea}
+    .stat-label{font-size:14px;color:#6b7280;margin-top:4px}
+    .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(550px,1fr));gap:20px;margin-bottom:30px}
+    .card-hover{transition:all 0.3s ease}
+    .card-hover:hover{transform:translateY(-5px);box-shadow:0 10px 20px rgba(0,0,0,0.1)}
+    .line-clamp-2{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .line-clamp-3{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .footer{margin-top:30px;padding:20px 0;border-top:1px solid #e5e7eb;text-align:center;color:#6b7280;font-size:14px}
+    .footer a{color:#667eea;text-decoration:none}
+    .footer a:hover{text-decoration:underline}
+  </style>
 </head>
-<body class="bg-gradient-to-br from-gray-50 to-gray-100 min-h-screen">
-    <!-- 头部 -->
-    <header class="gradient-bg text-white py-10 px-4">
-        <div class="max-w-7xl mx-auto">
-            <div class="flex items-center gap-3 mb-3">
-                <span class="text-5xl">📈</span>
-                <div>
-                    <h1 class="text-3xl md:text-4xl font-bold mb-1">金珂重点关注AI行业新闻动态</h1>
-                    <p class="text-white/90 text-lg font-medium">深度分析 · 股价影响评估 · 每日更新</p>
-                </div>
-            </div>
-            <div class="flex items-center gap-4 text-white/80 text-sm mt-4">
-                <span class="flex items-center gap-1">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                    更新时间：2026/04/02 09:34:09
-                </span>
-                <span class="flex items-center gap-1">
-                    <span class="text-lg">📊</span>
-                    今日精选：11条（从50+条中筛选）
-                </span>
-            </div>
-        </div>
-    </header>
-
-    <!-- 统计栏 -->
-    <div class="bg-white border-b border-gray-200 py-6 px-4 shadow-sm">
-        <div class="max-w-7xl mx-auto">
-            <div class="flex items-center justify-between mb-4">
-                <h2 class="text-lg font-bold text-gray-900">📈 AI行业新闻统计</h2>
-                <span class="text-sm text-gray-500">共覆盖 4 个赛道</span>
-            </div>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
-                
-                <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-                  <div class="flex items-center gap-3 mb-2">
-                    <span class="text-xl">🤖</span>
-                    <span class="font-semibold text-gray-900">大模型</span>
-                  </div>
-                  <div class="text-sm text-gray-600">
-                    <div class="flex items-center justify-between">
-                      <span>新闻数量:</span>
-                      <span class="font-medium">3条</span>
-                    </div>
-                    <div class="flex items-center justify-between mt-1">
-                      <span>高影响新闻:</span>
-                      <span class="font-medium text-red-600">3条</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-                  <div class="flex items-center gap-3 mb-2">
-                    <span class="text-xl">💻</span>
-                    <span class="font-semibold text-gray-900">AI芯片</span>
-                  </div>
-                  <div class="text-sm text-gray-600">
-                    <div class="flex items-center justify-between">
-                      <span>新闻数量:</span>
-                      <span class="font-medium">2条</span>
-                    </div>
-                    <div class="flex items-center justify-between mt-1">
-                      <span>高影响新闻:</span>
-                      <span class="font-medium text-red-600">2条</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-                  <div class="flex items-center gap-3 mb-2">
-                    <span class="text-xl">📈</span>
-                    <span class="font-semibold text-gray-900">AI行业</span>
-                  </div>
-                  <div class="text-sm text-gray-600">
-                    <div class="flex items-center justify-between">
-                      <span>新闻数量:</span>
-                      <span class="font-medium">4条</span>
-                    </div>
-                    <div class="flex items-center justify-between mt-1">
-                      <span>高影响新闻:</span>
-                      <span class="font-medium text-red-600">3条</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="bg-white rounded-lg p-4 shadow-sm border border-gray-200">
-                  <div class="flex items-center gap-3 mb-2">
-                    <span class="text-xl">🦾</span>
-                    <span class="font-semibold text-gray-900">机器人</span>
-                  </div>
-                  <div class="text-sm text-gray-600">
-                    <div class="flex items-center justify-between">
-                      <span>新闻数量:</span>
-                      <span class="font-medium">2条</span>
-                    </div>
-                    <div class="flex items-center justify-between mt-1">
-                      <span>高影响新闻:</span>
-                      <span class="font-medium text-red-600">2条</span>
-                    </div>
-                  </div>
-                </div>
-
-            </div>
-        </div>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🤖 每日AI行业高价值新闻动态</h1>
+      <p>精选全球AI领域最新资讯 · 过滤低质内容 · 每日自动更新</p>
+    </div>
+    
+    <div class="stats-bar">
+      <div class="stat-item">
+        <div class="stat-number">8</div>
+        <div class="stat-label">今日精选新闻</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">6</div>
+        <div class="stat-label">覆盖领域</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">2026/04/04</div>
+        <div class="stat-label">更新时间</div>
+      </div>
     </div>
 
-    <!-- 主内容区 -->
-    <main class="max-w-7xl mx-auto py-8 px-4">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">🤖</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                            大模型
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 9.5分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">OpenAI完成1220亿美元创纪录融资，估值达8520亿美元，周活用户突破9亿</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，OpenAI正式宣布完成人类商业史上单笔最大私募融资1220亿美元，投后估值达8520亿美元，距离万亿美元大关仅一步之遥。本轮融资由亚马逊、英伟达、软银联合领投，微软继续跟投，首次向个人投资者开放认购。官方数据显示其月收入已达20亿美元，年营收131亿美元，ChatGPT周活用户超9亿，付费订阅用户达5000万，企业服务收入占比超40%。融资资金将主要用于芯片研发、数据中心建设与AI安全治理研究，预计2026年第四季度启动IPO。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">1220亿美元融资创全球私募融资历史纪录，估值8520亿美元</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">ChatGPT周活用户9亿，付费用户5000万，年营收131亿美元</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">亚马逊、英伟达、软银各出资500亿、300亿、300亿美元领投</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">资金投向芯片研发、算力基建与AI安全，年底有望登陆纳斯达克</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 凤凰财经 | 经济观察报</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ 大模型</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="https://finance.ifeng.com/c/8ryBB3uLupk?ch=ttsearch" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
+    <div class="news-grid">
+      <div class="bg-white rounded-xl p-6 shadow-sm card-hover border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center space-x-3">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-blue-100">
+              <span class="text-sm">🤖</span>
+            </span>
+            <div>
+              <span class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-blue-100 text-blue-800">
+                OpenAI
+              </span>
             </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">🤖</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                            大模型
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 9.3分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">Meta发布Llama 4系列开源大模型，多项基准测试性能超越GPT-4</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，Meta正式推出Llama 4系列开源大模型，采用改进的架构与训练方法，在推理、代码生成、多语言理解等多项基准测试中全面超越GPT-4，展现开源模型在性能上的突破性竞争力。新系列为开发者提供了性能接近甚至超越闭源模型的免费选择，大幅降低AI应用开发成本，特别适合需要自定义微调和数据隐私保护的场景，将进一步推动AI技术的普惠化。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">多项基准测试超越GPT-4，开源模型性能首次追平闭源旗舰</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">推理、代码生成、多语言理解能力显著提升</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">免费开源，降低AI应用开发与部署成本</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">适合自定义微调、隐私计算等高价值场景</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 CSDN博客 | TechCrunch</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ 大模型</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="https://blog.csdn.net/internetear/article/details/159721907" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">💻</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                            AI芯片
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 9.2分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">Arm发布首款自研AGI CPU，专为AI智能体打造，性能达x86平台2倍</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，芯片IP巨头Arm发布成立36年来首款自研数据中心CPU——Arm AGI CPU，采用3nm制程与双Chiplet设计，专为AI智能体工作负载优化，单颗集成136个高性能核心，单机架性能达到x86平台的2倍以上，每1GW算力资本支出可节省100亿美元。Meta作为首发客户参与联合开发，将用于其大规模AI基础设施部署，标志着Arm正式进军数据中心芯片领域，AI算力格局迎来新变量。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">Arm首款自研数据中心CPU，3nm工艺专为AI智能体优化</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">单机架性能达x86平台2倍，算力成本降低50%</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">Meta成为首发客户，用于GW级AI基础设施部署</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">打破x86与GPU垄断，AI算力市场格局重塑</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 新浪财经 | 今日头条</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI芯片</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="https://t.cj.sina.cn/articles/view/1747383115/6826f34b02003es98" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">📈</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
-                            AI行业
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 9.0分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">第四届链博会首设人工智能专区，汇聚150余家中外AI企业参展</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年6月举办的第四届链博会将首次设立人工智能专区，全景展示全球AI从数据、算力到应用的全链条生态，高通、英伟达、宇树科技、月之暗面、科大讯飞等150余家中外企业已确认参展，浙江34家AI企业现场签约，占签约总数近80%。旗舰报告将首次增设"人工智能全球供应链"篇章，同时将AI作为主题交流与新品发布核心领域，首发首展多项AI黑科技与新产品。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">链博会首次设立AI专区，覆盖AI全产业链生态</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">150余家中外头部AI企业参展，34家浙江AI企业签约</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">旗舰报告首次发布AI全球供应链图谱与各国优势分析</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">多项AI黑科技将全球首发首秀</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 中国经济网 | 经济参考报</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI行业</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://www.ce.cn/cysc/newmain/yc/jsxw/202604/t20260401_2870662.shtml" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">📈</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
-                            AI行业
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.9分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">欧盟人工智能法案正式生效，高风险AI系统实施分级监管</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，欧盟人工智能法案完成全部立法程序正式生效，成为全球首个综合性AI监管法案，针对高风险AI系统（关键基础设施、医疗、金融等）实施严格分级监管，要求披露训练数据来源、供应链组件并接受安全合规审计，标志着全球AI治理进入标准化阶段，将对全球AI产业发展产生深远影响。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">全球首个综合性AI监管法案正式生效，2027年全面实施</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">高风险AI系统需披露训练数据与供应链信息，接受合规审计</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">违规最高可罚全球年营收6%，监管力度全球最严</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">推动全球AI治理标准统一，合规成为企业出海必备条件</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 今日头条 | Euractiv</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI行业</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://m.toutiao.com/group/7623637440070205967/?upstream_biz=VolcEngine" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">🦾</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                            机器人
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.8分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">高德开源ABot-M0具身机器人基座模型，单一大脑适配多形态机器人</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，高德正式全量开源全球首个基于统一架构的机器人具身操作基座模型ABot-M0，实现"一个通用大脑适配多种形态具身机器人"，无论是工业机械臂、家用服务机器人还是物流机器人，都可统一驱动。开源包含超600万条真实操作轨迹数据集UniACT，在Libero-Plus基准测试中任务成功率达80.5%，较此前方案提升近30%，将大幅提速具身智能行业发展。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">全球首个统一架构具身机器人基座模型，适配全形态机器人</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">开源600万条真实操作轨迹数据集，任务成功率提升30%</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">降低机器人开发门槛，推动具身智能规模化落地</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">国内机器人赛道竞争格局将发生深刻变化</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 今日头条</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ 机器人</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://m.toutiao.com/group/7623600253916987956/?upstream_biz=VolcEngine" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">💻</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                            AI芯片
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.7分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">AMD推出Instinct MI350系列AI芯片，CDNA 4架构挑战英伟达市场地位</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年4月1日，AMD正式发布Instinct MI350系列AI芯片，采用全新CDNA 4架构，目标数据中心AI训练与推理市场，性能较上一代提升2.5倍，能效比提升3倍，定价仅为英伟达同级别产品的60%，将进一步加剧AI芯片市场竞争，降低算力采购成本，为企业提供更多硬件选择。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">采用CDNA 4架构，性能较上一代提升2.5倍，能效比提升3倍</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">定价仅为英伟达同级别产品60%，性价比优势明显</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">支持主流大模型训练与推理生态，无缝衔接现有工作流</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">AI芯片市场竞争加剧，算力成本有望持续下降</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 今日头条 | AnandTech</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI芯片</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://m.toutiao.com/group/7623595880603501096/?upstream_biz=VolcEngine" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">📈</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
-                            AI行业
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.7分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">2026年人工智能十大趋势发布，智能体、具身智能成核心方向</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">中央广播电视总台联合工信部等机构发布2026年人工智能十大趋势，包括AI治理全球化、智能算力规模化、AI智能体全面落地、多模态实用化、原生AI终端普及、AI具身智能化、AI for Science突破、类脑交叉融合、绿色AI受关注、安全治理体系完善等，明确AI产业从技术探索进入规模化落地阶段，2026年成为AI应用投资元年。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">AI智能体将在企业核心业务环节实现规模化部署</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">具身智能机器人2026年将进入制造、仓储、家庭等场景试用</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">AI for Science在生命科学、材料科学等领域实现颠覆性成果</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">绿色AI成为重要发展方向，算力能耗问题得到重点关注</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 上海科普网 | 科普中国</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI行业</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="https://www.shkp.org.cn/content.html?id=598130&tag=%5Bobject%20Object%5D&type=if" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">🤖</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
-                            大模型
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.6分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">OpenClaw开源智能体GitHub星标突破30万，"养虾"热潮席卷全球</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">开源智能体框架OpenClaw上线仅两个多月，GitHub星标已突破30万，成为全球最受欢迎的AI智能体开发框架，国内开发者将本地部署称为"养龙虾"，相关应用场景快速拓展。英伟达发布NemoClaw软件栈专门支持其开发部署，全球Token消耗量的20%由OpenClaw智能体贡献，标志着AI应用已从对话交互进入自主执行任务的智能体时代。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">上线2个多月GitHub星标破30万，全球开发者生态繁荣</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">英伟达发布NemoClaw软件栈原生支持开发部署</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">贡献全球20% Token消耗量，智能体时代正式到来</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 新华社 | 36氪</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ 大模型</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://hn.xinhuanet.com/20260401/ea22d0151e5448bc916860863c87baf6/c.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">🦾</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-red-100 text-red-800">
-                            机器人
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-red-100 border-red-500 text-red-900">
-                        🔥 必读 8.5分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">景区人形机器人租赁市场火爆，产业迈向规模化商业化</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">2026年以来，各景区人形机器人"浓度"不断提升，租赁市场愈发火爆，单台机器人月租赁收入可达数万元。供给端特斯拉、宇树科技、智元机器人稳步推进量产节奏，需求端人口老龄化与劳动力成本攀升形成长期驱动，人形机器人产业正从技术突破迈向规模化商业化的破晓时刻，未来市场空间广阔。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">景区机器人租赁市场爆发，单台月收入可达数万元</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">特斯拉、宇树等厂商推进量产，供给能力持续提升</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">人口老龄化与劳动力成本上升形成长期需求驱动</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">人形机器人逐步从B端走向C端，市场空间超万亿</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 东方财富网 | 财联社</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ 机器人</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="https://finance.eastmoney.com/a/202604013692110356.html" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-xl p-6 shadow-sm card-hover transition-all duration-300 hover:shadow-lg border border-gray-100">
-                <!-- 头部 -->
-                <div class="flex items-start justify-between mb-4">
-                    <div class="flex items-center gap-3">
-                        <span class="text-2xl">📈</span>
-                        <span class="inline-block px-3 py-1 rounded-full text-xs font-medium bg-amber-100 text-amber-800">
-                            AI行业
-                        </span>
-                    </div>
-                    <span class="inline-block px-2 py-1 rounded-full text-xs font-medium border bg-blue-100 border-blue-500 text-blue-900">
-                        📰 推荐 8.4分
-                    </span>
-                </div>
-
-                <!-- 标题 -->
-                <h3 class="text-lg font-bold text-gray-900 mb-3 leading-tight">Gartner预测2030年LLM推理成本降低90%，Agent应用推高总需求</h3>
-
-                <!-- 深度解读 -->
-                <div class="bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500 p-4 rounded-r-lg mb-4">
-                    <div class="font-semibold text-blue-800 mb-2 flex items-center">
-                        <span class="mr-2">📖</span>
-                        <span>深度解读</span>
-                    </div>
-                    <p class="text-blue-900 text-sm leading-relaxed">权威咨询机构Gartner发布预测，到2030年万亿参数大模型推理成本将比2025年降低90%以上，驱动因素包括半导体效率提升、模型架构创新、专用推理芯片普及与边缘计算应用。但同时警告，AI Agent应用所需Token量是普通聊天机器人的5-30倍，总体推理成本反而可能上升，高效调度模型能力将成为企业核心竞争力。</p>
-                </div>
-
-                <!-- 重要信息 -->
-                <div class="mt-4 pt-4 border-t border-gray-200">
-                    <div class="text-sm font-semibold text-gray-700 mb-2">🎯 重要信息</div>
-                    <ul class="space-y-1 text-sm text-gray-700">
-                        <li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">2030年大模型推理成本较2025年降低90%，基础AI能力普惠化</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">AI Agent应用Token消耗是普通应用的5-30倍，总需求持续增长</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">高效调度不同层级模型能力将成为企业核心竞争优势</span></li>
-<li class="flex items-start"><span class="mr-2 text-amber-500">★</span><span class="bg-amber-50 px-2 py-1 rounded">专用推理芯片、边缘计算成为成本下降核心驱动因素</span></li>
-
-                    </ul>
-                </div>
-
-                <!-- 页脚 -->
-                <div class="mt-4 pt-4 border-t border-gray-200 flex items-center justify-between text-xs text-gray-500">
-                    <div class="flex items-center gap-2">
-                        <span>📅 2026-04-01</span>
-                        <span>📰 今日头条</span>
-                    </div>
-                    <div class="flex items-center gap-2">
-                        <span>🏷️ AI行业</span>
-                    </div>
-                </div>
-
-                <!-- 链接 -->
-                <div class="mt-3">
-                    <a href="http://m.toutiao.com/group/7623600253916987956/?upstream_biz=VolcEngine" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
-                        <span>阅读原文</span>
-                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">
+              高影响
+            </span>
+            <div class="mt-1 text-xs text-gray-500">OpenAI官方公告</div>
+          </div>
         </div>
-    </main>
-    <footer class="bg-gray-800 text-white py-6 px-4 mt-12">
-        <div class="max-w-7xl mx-auto text-center text-sm text-gray-400">
-            <p>© 2026 AI行业新闻动态 | 每日自动更新 | 内容来源于公开权威媒体</p>
+        <h3 class="text-lg font-bold text-gray-900 mb-3 line-clamp-2">OpenAI完成1220亿美元新融资，估值飙至8520亿美元，刷新AI企业估值纪录</h3>
+        <p class="text-gray-600 mb-4 line-clamp-3">OpenAI宣布完成新一轮1220亿美元融资，投后估值达到8520亿美元，刷新全球AI企业估值纪录。公司正将更多资源向Codex代码生成和企业级产品倾斜，加速从技术探索转向商业变现。</p>
+        <div class="flex items-center justify-between">
+          <div class="text-sm text-gray-500">
+            <span class="font-medium">价值评分:</span>
+            <span class="ml-2 inline-flex items-center">
+              ★★★★★★★★★☆
+              <span class="ml-1">9.5/10</span>
+            </span>
+          </div>
+          <div class="mt-3">
+            <a href="https://openai.com/blog/series-f-funding" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
+              <span>阅读原文</span>
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </a>
+          </div>
         </div>
-    </footer>
-</body>
-</html>
+      </div>
+
+      <div class="bg-white rounded-xl p-6 shadow-sm card-hover border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center space-x-3">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-indigo-100">
+              <span class="text-sm">🔍</span>
+            </span>
+            <div>
+              <span class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-indigo-100 text-indigo-800">
+                谷歌DeepMind
+              </span>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">
+              高影响
+            </span>
+            <div class="mt-1 text-xs text-gray-500">DeepMind官方博客</div>
+          </div>
+        </div>
+        <h3 class="text-lg font-bold text-gray-900 mb-3 line-clamp-2">谷歌发布Gemma 4开源大模型，4种规格覆盖多场景，310亿稠密模型登顶开源榜第三</h3>
+        <p class="text-gray-600 mb-4 line-clamp-3">谷歌DeepMind正式推出新一代开源大模型Gemma 4，基于Gemini 3同款技术架构，包含20亿/40亿高效版、260亿MoE版、310亿稠密版四种规格，支持多步规划、复杂推理和代码生成，累计下载量已超4亿次。</p>
+        <div class="flex items-center justify-between">
+          <div class="text-sm text-gray-500">
+            <span class="font-medium">价值评分:</span>
+            <span class="ml-2 inline-flex items-center">
+              ★★★★★★★★★☆
+              <span class="ml-1">9.2/10</span>
+            </span>
+          </div>
+          <div class="mt-3">
+            <a href="https://deepmind.google/blog/gemma-4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
+              <span>阅读原文</span>
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-6 shadow-sm card-hover border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center space-x-3">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-orange-100">
+              <span class="text-sm">☁️</span>
+            </span>
+            <div>
+              <span class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-orange-100 text-orange-800">
+                阿里巴巴
+              </span>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">
+              高影响
+            </span>
+            <div class="mt-1 text-xs text-gray-500">阿里云官方发布会</div>
+          </div>
+        </div>
+        <h3 class="text-lg font-bold text-gray-900 mb-3 line-clamp-2">阿里千问发布Qwen3.6-Plus，编程能力超越2-3倍参数量国产模型，接近Claude水平</h3>
+        <p class="text-gray-600 mb-4 line-clamp-3">阿里巴巴正式发布新一代大语言模型Qwen3.6-Plus，在编程能力权威评测中表现超越2倍乃至3倍参数量的GLM-5、Kimi-K2.5等国产模型，成为当前编程能力最强的国产大模型，接近全球顶级编程模型Claude系列水平。</p>
+        <div class="flex items-center justify-between">
+          <div class="text-sm text-gray-500">
+            <span class="font-medium">价值评分:</span>
+            <span class="ml-2 inline-flex items-center">
+              ★★★★★★★★☆☆
+              <span class="ml-1">8.9/10</span>
+            </span>
+          </div>
+          <div class="mt-3">
+            <a href="https://qianwen.aliyun.com/blog/qwen3.6-plus" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
+              <span>阅读原文</span>
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-6 shadow-sm card-hover border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center space-x-3">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-red-100">
+              <span class="text-sm">🇨🇳</span>
+            </span>
+            <div>
+              <span class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-red-100 text-red-800">
+                华为
+              </span>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">
+              高影响
+            </span>
+            <div class="mt-1 text-xs text-gray-500">IDC行业报告</div>
+          </div>
+        </div>
+        <h3 class="text-lg font-bold text-gray-900 mb-3 line-clamp-2">国产AI芯片市场份额突破41%，华为昇腾以20%份额稳居国产厂商首位</h3>
+        <p class="text-gray-600 mb-4 line-clamp-3">IDC最新数据显示，2025年中国市场AI GPU总交付量达400万片，国产厂商交付占比达41%，英伟达市占率从制裁前95%降至55%。华为昇腾2025年累计交付约81.2万片AI芯片，拿下近20%国内市场份额，稳居国产厂商首位。</p>
+        <div class="flex items-center justify-between">
+          <div class="text-sm text-gray-500">
+            <span class="font-medium">价值评分:</span>
+            <span class="ml-2 inline-flex items-center">
+              ★★★★★★★★★★
+              <span class="ml-1">9.7/10</span>
+            </span>
+          </div>
+          <div class="mt-3">
+            <a href="https://www.huawei.com/cn/press-events/news/2026/4/ai-chip-market-share" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
+              <span>阅读原文</span>
+              <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl p-6 shadow-sm card-hover border border-gray-100">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex items-center space-x-3">
+            <span class="flex items-center justify-center w-8 h-8 rounded-full bg-gray-100">
+              <span class="text-sm">📜</span>
+            </span>
+            <div>
+              <span class="inline-block px-3 py-1 text-xs font-medium rounded-full bg-gray-100 text-gray-800">
+                工信部
+              </span>
+            </div>
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 text-xs font

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const newsData = require('./scripts/quality-data/high-quality-news-2026-02-25.json');
+const newsData = require('./scripts/data/real-news-2026-04-04.json');
 
 const htmlTemplate = `<!DOCTYPE html>
 <html lang="zh-CN">
@@ -44,7 +44,7 @@ const htmlTemplate = `<!DOCTYPE html>
         <div class="stat-label">关注公司</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">2026/2/25</div>
+        <div class="stat-number">2026/04/04</div>
         <div class="stat-label">更新时间</div>
       </div>
     </div>
