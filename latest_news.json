@@ -1,182 +1,58 @@
 [
   {
-    "title": "OpenAI完成1220亿美元创纪录融资，估值达8520亿美元，AI军备竞赛加速",
-    "analysis": "2026年4月，OpenAI正式宣布完成总额1220亿美元的新一轮融资，刷新全球私募融资单笔最高纪录，公司投后估值达到8520亿美元，距离万亿美元大关仅一步之遥。此次融资规模远超市场预期，将为OpenAI持续大规模投入大模型研发、AGI技术探索以及硬件基础设施建设提供充足资金支持，同时也标志着全球AI产业竞争进入全新阶段，资本向头部企业集中的趋势愈发明显。此外，OpenAI还宣布将被纳入ARK Invest管理的多个交易所交易基金（ETF），并将现有循环信贷额度扩大至约47亿美元，进一步提升财务灵活性。市场普遍预计此次融资后OpenAI将加快GPT-5等下一代模型的研发进度，并推动AI智能体、机器人等前沿领域的商业化落地。",
-    "key_points": [
-      "完成1220亿美元融资，刷新全球私募单笔融资纪录，投后估值8520亿美元",
-      "资金将用于大模型研发、AGI探索和基础设施建设，GPT-5研发进度有望提速",
-      "纳入ARK旗下多只ETF，循环信贷额度扩大至47亿美元，财务灵活性大幅提升",
-      "全球AI产业资本向头部集中趋势明显，行业军备竞赛进一步加速"
-    ],
-    "category": "💰 融资动态",
-    "score": 9.8,
-    "date": "2026-04-09",
-    "source": "经济观察网 | 新浪财经 | 证券时报",
-    "link": "https://finance.sina.com.cn/world/2026-04-01/doc-inhsxqxn2068653.shtml"
+    "title": "5 top cloud migration software for Infrastructure as Code (IaC)",
+    "link": "https://www.artificialintelligence-news.com/news/5-top-cloud-migration-software-for-infrastructure-as-code-iac/",
+    "excerpt": "Cloud migration becomes much harder when teams are not moving workloads, but also trying to make every environment reproducible and deployment-ready through Infrastructure as Code. The challenge is not limited to copying applications from one platform to another. It includes validating architecture ...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "中国AI大模型周调用量连续三周超越美国，7.359万亿Token领跑全球",
-    "analysis": "据全球最大AI模型API聚合平台OpenRouter最新数据，2026年3月16日至22日，中国AI大模型周调用量达7.359万亿Token，环比上涨56.9%，连续三周超越美国的3.536万亿Token，全球调用量Top4均为国产模型（小米MiMo V2 Pro、阶跃星辰Step 3.5 Flash、MiniMax M2.5、DeepSeek-V3.2）。国产模型凭借远低于海外竞品的价格优势、开源生态优势以及十亿级消费用户场景的支撑，实现了从技术突破到规模化应用的跨越，标志着我国AI产业进入\"技术迭代-成本下降-应用爆发\"的正向循环。",
-    "key_points": [
-      "周调用量7.359万亿Token，连续三周超越美国",
-      "全球Top4均为国产模型，海外开发者占比达47%",
-      "国产模型API成本仅为海外竞品1/70，大幅降低使用门槛",
-      "产业进入\"技术-成本-应用\"正向循环，从\"跟跑\"转向\"领跑\""
-    ],
-    "category": "📈 AI行业",
-    "score": 9.7,
-    "date": "2026-04-08",
-    "source": "新华网 | 科技日报",
-    "link": "http://www.xinhuanet.com/tech/20260324/efd6f1cc39274d8fa6c61f5c24d55bf1/c.html"
+    "title": "OpenAI Agents SDK improves governance with sandbox execution",
+    "link": "https://www.artificialintelligence-news.com/news/openai-agents-sdk-improves-governance-sandbox-execution/",
+    "excerpt": "OpenAI is introducing sandbox execution that allows enterprise governance teams to deploy automated workflows with controlled risk. Teams taking systems from prototype to production have faced difficult architectural compromises regarding where their operations occurred. Using model-agnostic framewo...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "张亚勤院士提出2026年为\"智能体AI元年\"，AI迎来三大发展趋势",
-    "analysis": "中国工程院院士张亚勤在博鳌亚洲论坛2026年年会上指出，2026年是\"智能体AI元年\"，人工智能发展呈现三大核心趋势：一是从\"生成式AI\"走向\"智能体AI\"，AI从对话生成转向主动规划执行任务；二是从\"信息智能\"走向\"物理智能\"和\"生物智能\"，突破虚拟世界边界融入实体场景；三是从\"AI\"走向\"AI+深度赋能\"，AI成为各行各业的底层生产工具。国家政策明确提出到2027年推出1000个高水平工业智能体，推动AI从实验室走向产业落地。",
-    "key_points": [
-      "2026年正式成为智能体AI元年，AI进入\"动手做事\"新阶段",
-      "三大趋势：智能体AI、物理/生物智能、AI+全行业赋能",
-      "政策目标2027年落地1000个高水平工业智能体",
-      "智能体已在客服、办公自动化、工业生产等场景规模化部署"
-    ],
-    "category": "🤖 大模型",
-    "score": 9.5,
-    "date": "2026-04-08",
-    "source": "新浪财经 | 中新网",
-    "link": "https://finance.sina.com.cn/roll/2026-03-25/doc-inhseyvx9730756.shtml"
+    "title": "Cadence expands AI and robotic partnerships with Nvidia, Google Cloud",
+    "link": "https://www.artificialintelligence-news.com/news/cadence-expands-ai-and-robotics-partnerships-with-nvidia-google-cloud/",
+    "excerpt": "Cadence Design Systems announced two AI-related collaborations at its CadenceLIVE event this week, expanding its work with Nvidia and introducing new integrations with Google Cloud. The Nvidia partnership focuses on combining AI with physics-based simulation and accelerated computing for robotic sys...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "DeepSeek V4登顶全球编程基准SWE-Bench，推理成本仅为GPT-4的1/70",
-    "analysis": "国产大模型DeepSeek V4在权威编程基准SWE-Bench Verified测试中以83.7%的准确率登顶，超越GPT-5.2与Claude Opus 4.5成为全球首个拿下该榜单第一的国产模型。该模型采用自研MoE 2.0混合专家架构，万亿总参数仅激活320-370亿参数，推理效率提升3倍，API调用每百万Token成本仅0.27美元，为GPT-4的1/70。同时优先适配华为昇腾、寒武纪等国产芯片，适配率达85%，实现了\"国产模型+国产芯片\"的自主可控技术闭环。",
-    "key_points": [
-      "编程能力83.7%登顶SWE-Bench全球榜首，超越海外顶尖模型",
-      "MoE架构推理成本仅为GPT-4的1/70，百万Token低至0.27美元",
-      "国产芯片适配率达85%，构建自主可控技术生态",
-      "支持338种编程语言，百万上下文可一次性读懂数十万行代码库"
-    ],
-    "category": "🤖 大模型",
-    "score": 9.4,
-    "date": "2026-04-08",
-    "source": "中华网科技 | 中国焦点日报",
-    "link": "https://m.tech.china.com/mtz/touzi/2026/0324/223542.html"
+    "title": "Commvault launches a ‘Ctrl-Z’ for cloud AI workloads",
+    "link": "https://www.artificialintelligence-news.com/news/commvault-launches-ctrl-z-for-cloud-ai-workloads/",
+    "excerpt": "Enterprise cloud environments now have access to an undo feature for AI agents following the deployment of Commvault AI Protect. Autonomous software now roams across infrastructure, potentially deleting files, reading databases, spinning up server clusters, and even rewriting access policies. Commva...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "全球首张侵入式脑机接口三类证获批，国产硬核科技打破垄断",
-    "analysis": "国家药监局正式批准全球首张侵入式脑机接口三类医疗器械证，国产NEO系统采用硬脑膜外微创植入与无线供能通信技术，信号精度和响应速度实现量级提升，在11家医院32例颈段脊髓损伤患者临床植入中，所有患者均实现脑控抓握，22例患者经过6个月训练后手部运动功能显著改善。国产化替代将原本百万级的治疗成本降至普通家庭可承受范围，标志着我国在脑机接口前沿领域打破国外垄断进入商业化临床阶段。",
-    "key_points": [
-      "全球首张侵入式脑机接口三类医疗器械证获批",
-      "32例临床全部实现脑控抓握，功能改善率达68.75%",
-      "成本大幅降低，从百万级降至普通家庭可承受范围",
-      "打破国外技术垄断，脑机接口正式进入商业化落地阶段"
-    ],
-    "category": "🔬 前沿科技",
-    "score": 9.3,
-    "date": "2026-04-08",
-    "source": "36氪 | 北京日报",
-    "link": "https://36kr.com/p/3739100846125833"
+    "title": "Citizen developers now have their own Wingman",
+    "link": "https://www.artificialintelligence-news.com/news/citizen-developers-now-have-their-own-wingman/",
+    "excerpt": "A vibe-coding application creation company, Emergent, has released Wingman, an autonomous agent that can address and take control of the applications used to manage daily tasks. The company’s press release states: “The best technology should be accessible to everyone”, and cites the difficulty that ...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "英伟达GTC 2026发布Vera Rubin平台，定义AI下半场物理AI方向",
-    "analysis": "英伟达GTC 2026大会正式发布Vera Rubin全新架构平台，搭载Vera CPU、Rubin GPU等七款协同芯片，组成AI超级计算机，可实现物理世界与数字世界的精准映射，大幅提升AI在工业制造、自动驾驶、生物医药等领域的落地效率。该平台将于2027年量产，预计当年芯片订单规模突破万亿美元，标志着AI产业核心方向从生成式AI转向物理AI、智能体AI与AI工厂的全链路生态构建。",
-    "key_points": [
-      "七款协同芯片组成AI超级计算机，支撑物理世界建模",
-      "2027年量产，预计首年订单规模超万亿美元",
-      "定调AI下半场核心方向：物理AI、智能体推理、AI工厂",
-      "巩固英伟达AI基础设施领域垄断地位，行业进入新基建周期"
-    ],
-    "category": "💻 AI芯片",
-    "score": 9.2,
-    "date": "2026-04-08",
-    "source": "英伟达中国 | 今日头条",
-    "link": "http://m.toutiao.com/group/7618112420778705423/?upstream_biz=VolcEngine"
+    "title": "Drones get smarter for large farm holdings",
+    "link": "https://www.artificialintelligence-news.com/news/agricultural-drones-get-smarter-for-large-farm-holdings/",
+    "excerpt": "Singapore-based DroneDash Technologies and GEODNET have formed a joint venture to be called GEODASH Aerosystems, to build an agricultural spraying drone for large industrial farms. The companies say the near-production drone technology is designed to remove the need to map a field to be treated befo...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "智源发布2026十大AI技术趋势，世界模型与多智能体成核心方向",
-    "analysis": "北京智源人工智能研究院发布《2026十大AI技术趋势》，指出AI演进核心从追求参数规模转向理解物理世界底层秩序，世界模型与Next-State Prediction（NSP）成为AGI共识方向，多智能体通信协议MCP、A2A等标准化工作取得进展，Agent时代的\"TCP/IP\"初具雏形。报告同时预测2026年下半年企业级AI应用将走出\"幻灭低谷期\"，实现V型反转，垂直领域MVP产品将规模化落地。",
-    "key_points": [
-      "AI范式从\"预测下一个词\"转向\"预测世界下一个状态\"",
-      "多智能体通信协议标准化，Agent时代\"TCP/IP\"雏形已现",
-      "2026H2企业级AI应用将迎来V型反转，规模化落地加速",
-      "具身智能走出实验室，2026年将进入工业与服务场景"
-    ],
-    "category": "📈 AI行业",
-    "score": 9.0,
-    "date": "2026-04-08",
-    "source": "新华网 | 智源研究院",
-    "link": "http://www.xinhuanet.com/tech/20260108/b99127c88a4640bbab49e5c6294264d2/c.html"
+    "title": "The US-China AI gap closes amid responsible AI concerns",
+    "link": "https://www.artificialintelligence-news.com/news/ai-safety-benchmarks-stanford-hai-2026-report/",
+    "excerpt": "The assumption that the US holds a durable lead in AI model performance is not well-supported by the data, and that is just one of the uncomfortable findings in Stanford University’s 2026 AI Index Report, published this week. The report, produced by Stanford’s Institute for Human-Centred Artificial ...",
+    "source": "AI News",
+    "date": "2026-04-17"
   },
   {
-    "title": "宇树科技人形机器人完成春晚全球首次人机共武表演，冲刺科创板IPO",
-    "analysis": "宇树科技20余台G1/H2人形机器人在2026年央视春晚完成全球首次\"人机共武\"高动态集群表演，实现3米弹射空翻、少林棍法对练等高难度动作，直播零失误。其采用的USCS全自主集群控制系统将多机器人动作同步误差控制在0.1秒以内，关节控制误差仅0.01毫米。目前宇树科技已提交科创板IPO申请，拟募资42.02亿元，2025年营收17.08亿元同比增长335.36%，人形机器人销量超5500台居全球前列。",
-    "key_points": [
-      "全球首次人机共武表演成功，动态动作控制技术全球领先",
-      "全自主集群控制系统同步误差<0.1秒，关节误差<0.01毫米",
-      "科创板IPO申请获受理，拟募资42亿元，2025年营收同比增335%",
-      "人形机器人销量超5500台，全球第一，毛利率达60.27%"
-    ],
-    "category": "🤖 具身智能",
-    "score": 8.9,
-    "date": "2026-04-08",
-    "source": "中华网科技 | 上交所公告",
-    "link": "https://m.tech.china.com/mtz/touzi/2026/0324/223542.html"
-  },
-  {
-    "title": "OpenClaw智能体生态爆发，国内大厂密集推出\"龙虾\"系产品",
-    "analysis": "2026年开年以来，OpenClaw（俗称\"龙虾\"）智能体生态快速爆发，GitHub日下载量超10万次，字节ArkClaw、腾讯WorkBuddy/QQClaw、阿里CoPaw、智谱AutoClaw、百度\"红手指Operator\"等大厂产品密集上线，覆盖云端SaaS、手机端、企业办公等全场景。其中字节火山引擎ArkClaw已服务头部游戏公司和物流企业，实现客服对话效率提升3倍、报关单处理准确率达99.8%，标志着智能体从\"尝鲜\"走向产业落地。",
-    "key_points": [
-      "GitHub日下载量超10万次，国内大厂全部入局\"龙虾\"生态",
-      "覆盖端侧、云端、办公全场景，企业级应用已实现价值闭环",
-      "智能体落地标杆案例：客服效率提3倍，报关准确率99.8%",
-      "工信部发布安全使用指南，推动行业规范发展"
-    ],
-    "category": "🤖 大模型",
-    "score": 8.8,
-    "date": "2026-04-08",
-    "source": "36氪 | 央广网",
-    "link": "http://news.cnr.cn/native/gd/20260324/t20260324_527560695.shtml"
-  },
-  {
-    "title": "阿里千问Qwen3.6-Plus登顶OpenRouter全球调用量榜首，日调用量破1.4万亿Token",
-    "analysis": "2026年4月4日，发布仅1天的阿里千问新模型Qwen3.6-Plus冲上全球最大AI大模型API聚合平台OpenRouter的日榜榜首，日调用量突破1.4万亿Token，打破该平台单日单模型调用量全球纪录。该模型主打超长上下文与代码能力，编程能力位列中国第一、全球第二，接近Claude系列顶级水平，支持百万级上下文窗口，可一次性处理完整代码库与长篇文档，已通过阿里云百炼平台开放服务，\"悟空\"等头部AI应用率先完成接入。",
-    "key_points": [
-      "日调用量突破1.4万亿Token，打破OpenRouter全球纪录",
-      "编程能力中国第一、全球第二，对标Claude Opus 4.5",
-      "支持百万级上下文窗口，适配软件开发、知识管理等场景",
-      "全球开发者掀起\"氛围编程\"热潮，一句话生成完整应用"
-    ],
-    "category": "🤖 大模型",
-    "score": 9.6,
-    "date": "2026-04-04",
-    "source": "中国新闻网 | 上海证券报",
-    "link": "http://www.chinanews.com.cn/cj/2026/04-05/10599061.shtml"
-  },
-  {
-    "title": "谷歌发布Gemma 4系列开源大模型，Apache 2.0协议全场景覆盖性能超越同规模竞品",
-    "analysis": "2026年4月2日，谷歌正式推出Gemma 4系列开源大模型，包含E2B（20亿参数）、E4B（40亿参数）、26B MoE（混合专家）、31B Dense（稠密模型）四款规格，全系采用Apache 2.0商业友好许可证，首次全面开放商用权限。31B稠密模型在Arena AI开源排行榜位列第三，性能超越体量达其20倍的竞争模型，小型号可在手机、树莓派等设备离线运行，原生支持140余种语言与音视频多模态输入，24小时总下载量突破4亿次，衍生变体超10万个。",
-    "key_points": [
-      "四款型号覆盖端侧到服务器全场景，31B模型登开源榜全球第三",
-      "Apache 2.0协议完全开放商用，消除商业使用法律风险",
-      "小模型可在手机离线运行，内存占用低至1.5GB，延迟接近零",
-      "与闭源旗舰Gemini 3同源技术底座，多模态能力全面领先"
-    ],
-    "category": "🤖 大模型",
-    "score": 9.4,
-    "date": "2026-04-03",
-    "source": "钛媒体 | 搜狐科技",
-    "link": "https://m.sohu.com/a/1004964040_121874574/"
-  },
-  {
-    "title": "微软发布三款自研MAI垂直模型，语音转写、语音生成、图像生成全面商用",
-    "analysis": "2026年4月2日，微软同步发布三款自研AI模型并全面商用，旨在降低对OpenAI的依赖：MAI-Transcribe-1语音转写模型支持25种语言，平均词错误率仅3.9%，批处理速度是现有服务的2.5倍；MAI-Voice-1语音生成模型单GPU不到一秒可生成60秒音频，长内容音色保持一致；MAI-Image-2图像生成模型位列文生图排行榜全球第三，定价仅为谷歌同类产品的1/4，三款模型已集成至Copilot、Teams等微软全系产品。",
-    "key_points": [
-      "自研模型全面商用，摆脱对OpenAI的技术依赖",
-      "语音转写准确率超越Whisper第三代，成本降低60%",
-      "图像生成性能全球第三，定价仅为谷歌同类产品的25%",
-      "标志着微软从\"AI分发商\"向\"AI自研玩家\"战略转型"
-    ],
-    "category": "🤖 大模型",
-    "score": 9.1,
-    "date": "2026-04-03",
-    "source": "新浪财经 | 比特网",
-    "link": "https://cj.sina.cn/articles/view/787"
+    "title": "SAP brings agentic AI to human capital management",
+    "link": "https://www.artificialintelligence-news.com/news/sap-brings-agentic-ai-human-capital-management/",
+    "excerpt": "According to SAP, integrating agentic AI into core human capital management (HCM) modules helps target operational bloat and reduce costs. SAP’s SuccessFactors 1H 2026 release aims to anticipate administrative bottlenecks before they stall daily operations by embedding a network of AI agents across ...",
+    "source": "AI News",
+    "date": "2026-04-17"
   }
 ]
