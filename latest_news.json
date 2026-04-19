@@ -1,58 +1,72 @@
 [
   {
-    "title": "5 top cloud migration software for Infrastructure as Code (IaC)",
-    "link": "https://www.artificialintelligence-news.com/news/5-top-cloud-migration-software-for-infrastructure-as-code-iac/",
-    "excerpt": "Cloud migration becomes much harder when teams are not moving workloads, but also trying to make every environment reproducible and deployment-ready through Infrastructure as Code. The challenge is not limited to copying applications from one platform to another. It includes validating architecture ...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "DeepSeek首次启动外部融资，估值超100亿美元拟募资3亿美元，V4万亿参数大模型4月底发布适配国产昇腾芯片",
+    "link": "http://m.163.com/dy/article/KQPV9F0S05568W0A.html",
+    "excerpt": "中国大模型企业DeepSeek正式启动成立以来首次外部股权融资，估值超100亿美元，计划募资不少于3亿美元。资金将主要用于加大算力投入、推进新一代万亿参数多模态模型V4研发、稳定核心团队及加速商业化落地。V4将首次实现与华为昇腾等国产芯片的深度适配，标志着中国AI产业在“去CUDA化”道路上迈出关键一步。",
+    "source": "网易新闻",
+    "date": "2026-04-18"
   },
   {
-    "title": "OpenAI Agents SDK improves governance with sandbox execution",
-    "link": "https://www.artificialintelligence-news.com/news/openai-agents-sdk-improves-governance-sandbox-execution/",
-    "excerpt": "OpenAI is introducing sandbox execution that allows enterprise governance teams to deploy automated workflows with controlled risk. Teams taking systems from prototype to production have faced difficult architectural compromises regarding where their operations occurred. Using model-agnostic framewo...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "Anthropic发布Claude Opus 4.7，强化软件工程能力与2576像素高清图像理解，综合性能超越GPT-5.4",
+    "link": "https://blog.csdn.net/2601_95533136/article/details/160281659",
+    "excerpt": "Anthropic Claude Opus 4.7正式全球可用，强化复杂软件工程与自我验证能力，支持长周期任务与Code Review；视觉升级支持最高2576像素高清图像理解，适配金融文档、图纸推理；新增xhigh高努力等级，已上线三大云平台，综合性能超越GPT-5.4，安全机制升级。",
+    "source": "CSDN",
+    "date": "2026-04-18"
   },
   {
-    "title": "Cadence expands AI and robotic partnerships with Nvidia, Google Cloud",
-    "link": "https://www.artificialintelligence-news.com/news/cadence-expands-ai-and-robotics-partnerships-with-nvidia-google-cloud/",
-    "excerpt": "Cadence Design Systems announced two AI-related collaborations at its CadenceLIVE event this week, expanding its work with Nvidia and introducing new integrations with Google Cloud. The Nvidia partnership focuses on combining AI with physics-based simulation and accelerated computing for robotic sys...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "腾讯、阿里同日发布世界模型：混元3D World 2.0开源可导出3D资产、Happy Oyster支持实时交互数字世界",
+    "link": "http://news.qq.com/rain/a/20260418A05QES00",
+    "excerpt": "4月16日腾讯正式开源混元3D世界模型2.0，支持多模态输入生成可编辑3D资产，可与Unity、UE等游戏引擎无缝对接；同日阿里发布世界模型Happy Oyster，支持实时构建可互动、可演绎、可探索的AI数字世界，支持影视制作、游戏开发等场景，世界模型赛道成为AI竞争新焦点。",
+    "source": "腾讯新闻",
+    "date": "2026-04-18"
   },
   {
-    "title": "Commvault launches a ‘Ctrl-Z’ for cloud AI workloads",
-    "link": "https://www.artificialintelligence-news.com/news/commvault-launches-ctrl-z-for-cloud-ai-workloads/",
-    "excerpt": "Enterprise cloud environments now have access to an undo feature for AI agents following the deployment of Commvault AI Protect. Autonomous software now roams across infrastructure, potentially deleting files, reading databases, spinning up server clusters, and even rewriting access policies. Commva...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "OpenAI斥资200亿美元押注Cerebras算力，最高可获10%股权，同步发布生命科学专用模型GPT-Rosalind",
+    "link": "http://news.qq.com/rain/a/20260418A02ZHL00",
+    "excerpt": "OpenAI与AI芯片公司Cerebras达成重磅协议，未来三年将支付超过200亿美元购买其芯片算力，若支出达300亿美元，OpenAI最高可获得Cerebras约10%的股权，还将提供10亿美元资助其数据中心建设。同步发布GPT-Rosalind，专为生物与医学研究设计，支持生化研究、药物发现等科研任务。",
+    "source": "腾讯新闻",
+    "date": "2026-04-18"
   },
   {
-    "title": "Citizen developers now have their own Wingman",
-    "link": "https://www.artificialintelligence-news.com/news/citizen-developers-now-have-their-own-wingman/",
-    "excerpt": "A vibe-coding application creation company, Emergent, has released Wingman, an autonomous agent that can address and take control of the applications used to manage daily tasks. The company’s press release states: “The best technology should be accessible to everyone”, and cites the difficulty that ...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "AI编程工具Cursor拟20亿美元融资估值超500亿美元，英伟达参投，年化收入已达20亿美元",
+    "link": "https://c.m.163.com/news/a/KQP2JKKN05568W0A.html",
+    "excerpt": "AI编程初创公司Cursor正计划新一轮融资筹集约20亿美元，融资后估值预计将超过500亿美元，英伟达计划参与投资。截至2026年2月，Cursor年化收入已突破20亿美元，每天约1.5亿行企业代码通过Cursor生成，超三分之二的财富500强企业正在使用其服务，面临来自Claude Code的激烈竞争。",
+    "source": "网易新闻",
+    "date": "2026-04-18"
   },
   {
-    "title": "Drones get smarter for large farm holdings",
-    "link": "https://www.artificialintelligence-news.com/news/agricultural-drones-get-smarter-for-large-farm-holdings/",
-    "excerpt": "Singapore-based DroneDash Technologies and GEODNET have formed a joint venture to be called GEODASH Aerosystems, to build an agricultural spraying drone for large industrial farms. The companies say the near-production drone technology is designed to remove the need to map a field to be treated befo...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "国内云服务三巨头集体上调AI算力价格，涨幅5%-34%，廉价算力时代正式结束",
+    "link": "http://news.qq.com/rain/a/20260418A05QES00",
+    "excerpt": "阿里云、腾讯云、百度智能云三家国内云服务巨头近期全面上调AI算力服务价格，涨幅5%-34%不等。本轮涨价核心引擎在于推理端词元调用量爆发式增长，2026年中国日均词元调用量已突破140万亿，较上年末增长超40%，算力供需关系发生根本性逆转。",
+    "source": "腾讯新闻",
+    "date": "2026-04-18"
   },
   {
-    "title": "The US-China AI gap closes amid responsible AI concerns",
-    "link": "https://www.artificialintelligence-news.com/news/ai-safety-benchmarks-stanford-hai-2026-report/",
-    "excerpt": "The assumption that the US holds a durable lead in AI model performance is not well-supported by the data, and that is just one of the uncomfortable findings in Stanford University’s 2026 AI Index Report, published this week. The report, produced by Stanford’s Institute for Human-Centred Artificial ...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "智元机器人发布4款本体新品与4大AI模型，2026年冲刺百亿营收，具身智能进入规模化落地阶段",
+    "link": "http://m.toutiao.com/group/7629946779177370147/?upstream_biz=VolcEngine",
+    "excerpt": "智元机器人2026合作伙伴大会吸引34个国家2500名嘉宾参与，发布4款机器人本体新品、4个AI大模型、7个解决方案及开放数据集，2026年为具身智能“部署态”元年，智元目标第五年冲刺100亿+营收，第八年冲击1000亿+营收，第1万台通用具身机器人已下线。",
+    "source": "今日头条",
+    "date": "2026-04-18"
   },
   {
-    "title": "SAP brings agentic AI to human capital management",
-    "link": "https://www.artificialintelligence-news.com/news/sap-brings-agentic-ai-human-capital-management/",
-    "excerpt": "According to SAP, integrating agentic AI into core human capital management (HCM) modules helps target operational bloat and reduce costs. SAP’s SuccessFactors 1H 2026 release aims to anticipate administrative bottlenecks before they stall daily operations by embedding a network of AI agents across ...",
-    "source": "AI News",
-    "date": "2026-04-17"
+    "title": "斯坦福2026 AI指数报告：中美顶级模型性能差距仅2.7%，中国AI专利、论文引用量全球领先",
+    "link": "https://blog.csdn.net/skywalk8163/article/details/160287976",
+    "excerpt": "斯坦福大学HAI发布《2026 AI Index报告》显示，中国在AI核心指标上已几乎抹平美国领先优势：中美顶级AI模型在Arena评分上的差距从2023年300+分缩至仅39分，性能差距仅2.7%；中国在AI专利、论文发表量和机器人部署数量上持续全球领先，论文引用量已超过美国。",
+    "source": "CSDN",
+    "date": "2026-04-18"
+  },
+  {
+    "title": "国家网信办发布《人工智能拟人化互动服务管理暂行办法》，2026年7月15日起正式实施",
+    "link": "https://blog.csdn.net/skywalk8163/article/details/160287976",
+    "excerpt": "国家网信办等五部门联合发布新规，聚焦AI情感互动服务：禁止生成鼓励自残、语言暴力、诱导情感依赖等内容；禁止向未成年人提供虚拟伴侣、虚拟亲属等亲密关系服务；要求企业加强数据安全、算法备案，并建立AI沙箱测试平台，自2026年7月15日起施行。",
+    "source": "CSDN",
+    "date": "2026-04-18"
+  },
+  {
+    "title": "NVIDIA用AI加速芯片设计，传统8名工程师10个月的标准单元库移植工作AI仅需一晚完成",
+    "link": "https://blog.csdn.net/skywalk8163/article/details/160287976",
+    "excerpt": "Nvidia宣布其AI系统已能完成“标准单元库移植”复杂任务，传统需要8名工程师耗时约10个月的工作，AI仅用一晚即可完成，该技术基于自研LLM与强化学习，将极大压缩半导体开发周期，降低行业成本。",
+    "source": "CSDN",
+    "date": "2026-04-18"
   }
 ]
