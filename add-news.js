@@ -1,0 +1,18 @@
+const fs = require('fs');
+const oldNews = require('./latest_news.json');
+const newNews = [
+{"title":"豆包大模型1.8发布：三大能力显著增强 媲美全球顶尖模型","link":"https://soft.china.com/article/2721286.html","excerpt":"在火山引擎Force原动力大会上，豆包大模型1.8正式发布，多模态Agent能力媲美全球顶尖模型。面向多模态Agent场景定向优化，工具调用、复杂指令遵循及OS Agent能力显著增强，在视觉推理、通用智能体测评集BrowseComp上表现全球领先，数学推理能力接近全球顶尖通用模型，已在火山引擎开放API。同时发布豆包音视频创作模型Seedance 1.5 pro，原生支持音视频联合生成。","source":"中华网软件","date":"2026-05-04"},
+{"title":"中科院发布类脑大模型瞬悉2.0，突破长序列与低耗部署核心瓶颈","link":"https://hub.baai.ac.cn","excerpt":"中科院团队推出类脑大模型「瞬悉2.0」，通过优化架构与编码路径，显著提升长序列处理效率及低功耗部署能力，在保持高性能的同时大幅降低训练与推理成本，为代码理解、智能体及多模态交互等长上下文需求场景提供高效替代方案。","source":"智源社区","date":"2026-05-04"},
+{"title":"OpenAI宣布ChatGPT与OpenClaw全面融合，Codex上线「宠物模式」","link":"https://hub.baai.ac.cn","excerpt":"OpenAI深夜宣布重磅更新：ChatGPT账号可直接登录OpenClaw实现全面融合，Codex上线支持自主迭代与一键迁移的「宠物模式」，被视作对Anthropic封杀策略的强势反制，标志着OpenAI在生态整合与开发者工具层面迈出关键一步。","source":"新智元","date":"2026-05-04"},
+{"title":"OpenAI推出AI浏览器ChatGPT Atlas，开启互联网与AI融合新篇章","link":"https://shaoyang.qrlwh.com/html/97e9099812.html","excerpt":"OpenAI推出首款完全由AI驱动的浏览器ChatGPT Atlas，整合「Ask ChatGPT」功能可与页面内容深度互动，支持AI智能体模式执行复杂操作，将浏览器从信息窗口升级为行动工作台，首先在macOS上线，未来拓展至全平台，谷歌股价受此影响一度下跌4.8%。","source":"XM外汇官网","date":"2026-05-04"},
+{"title":"千问3.6Plus大模型登顶全球模型调用排行榜首，日调用量破1.4万亿Token","link":"http://cjxynew.hebeinu.edu.cn/showarticle.php?_290546","excerpt":"阿里发布的千问Qwen3.6-Plus大模型上线仅1天即冲上OpenRouter日调用量榜首，日调用量突破1.4万亿Token打破全球纪录，其编程能力位列中国第一、全球第二，在全球AI社区掀起应用接入热潮。","source":"新民晚报","date":"2026-05-04"},
+{"title":"MemoraX AI完成千万美元种子轮融资，聚焦大模型内生记忆技术","link":"https://bigbear.ui.cn/sichuan/1ZGSR.shtml","excerpt":"深圳忆纪元科技（MemoraX AI）完成千万美元种子轮融资，由L2F光源创业者基金、钟鼎资本联合领投，自主研发Agentic RL架构实现大模型内生记忆，解决长期记忆碎片化、跨场景迁移难题，性能领先行业30%，训练效率提升400倍，将面向B/C端推出标准化记忆产品。","source":"UI中国","date":"2026-05-04"},
+{"title":"阿里巴巴发布千问AI数字人形象「千问小酒窝」，AI生态持续融合","link":"https://bigbear.ui.cn/content--M10Ft","excerpt":"阿里巴巴正式发布生态级AI助手统一数字人形象「千问小酒窝」，依托阿里商业生态可实现从需求理解到交易支付的完整链路执行，将陆续接入淘宝、飞猪、高德等全生态应用，是阿里ATH战略落地的直接体现。","source":"UI中国","date":"2026-05-04"},
+{"title":"Meta收购华农校友机器人AI公司ARI，团队并入超级智能实验室","link":"https://hub.baai.ac.cn","excerpt":"Meta正式收购人形机器人AI初创公司Assured Robot Intelligence（ARI），该公司由华南农业大学、中山大学校友王晓龙联合创办，收购后团队将整体并入Meta超级智能实验室，共同推进人形机器人与具身智能领域前沿研究。","source":"量子位","date":"2026-05-03"},
+{"title":"苹果官方App误打包Claude.md，暴露AI架构深度依赖Anthropic","link":"https://hub.baai.ac.cn","excerpt":"苹果Support App v5.13更新中工程师误将内部文档CLAUDE.md发布，暴露其AI架构深度依赖Anthropic的Claude模型，与公开宣称的自主研发形成反差，凸显内部技术协同与版本管理漏洞，苹果24小时内紧急删除处理。","source":"新智元","date":"2026-05-03"},
+{"title":"腾讯混元开源440M翻译模型，手机离线就能用翻译质量超谷歌","link":"https://hub.baai.ac.cn","excerpt":"腾讯混元团队开源Hy-MT1.5-1.8B-1翻译模型，通过极致量化压缩技术在保持高翻译质量前提下大幅降低内存占用与算力需求，适配手机端常驻部署，离线翻译质量超越谷歌，大幅提升弱网、隐私敏感场景实用性。","source":"量子位","date":"2026-05-03"},
+{"title":"腾讯混元3.0正式发布，主打全面实用性Agent能力大幅提升","link":"https://qzs.stcn.com/article/detail/589248.html","excerpt":"腾讯发布并开源混元Hy3 preview（混元3.0预览版），这是混元重建预训练与强化学习基础设施后的首个模型，总参数295B激活参数21B，最大支持256K上下文，复杂推理、代码及智能体能力大幅提升，推理效率较上一代提升40%，成本大幅下降，已接入腾讯全产品线并支持OpenClaw等主流开源智能体。","source":"券中社","date":"2026-05-02"},
+{"title":"商汤科技发布SenseNova U1系列模型，开启原生统一多模态智能新篇章","link":"https://m.sohu.com/a/1015948031_362225/","excerpt":"商汤科技推出基于NEO-unify架构的SenseNova U1系列原生统一多模态模型，通过单一架构实现多模态理解、推理与生成深度融合，消除传统拼接式设计局限，可支持机器人具身大脑全流程处理，开源轻量版已开放下载，未来更大参数版本计算成本将降至行业平均1/3以下。","source":"搜狐网","date":"2026-04-29"}
+];
+const allNews = [...newNews, ...oldNews.slice(0, 8)];
+fs.writeFileSync('./latest_news.json', JSON.stringify(allNews, null, 2));
