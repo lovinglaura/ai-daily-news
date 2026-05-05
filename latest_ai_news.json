@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Physical AI raises governance questions for autonomous systems",
+    "link": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems/",
+    "excerpt": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "Google made agentic AI governance a product. Enterprises still have to catch up.",
+    "link": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google/",
+    "excerpt": "Two weeks ago at Google Cloud Next ’26 in Las Vegas, Google did something the enterprise AI industry has been dancing around for the better part of two years: it made agentic AI governance a native product feature, not an afterthought. The centrepiece announcement was the Gemini Enterprise Agent Pla...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "SAP: How enterprise AI governance secures profit margins",
+    "link": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins/",
+    "excerpt": "According to SAP, enterprise AI governance secures profit margins by replacing statistical guesses with deterministic control. Ask a consumer-grade model to count the words in a document, and it will often miss the mark by ten percent. Manos Raptopoulos, Global President of Customer Success Europe, ...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "Per-token AI charges come to GitHub Copilot",
+    "link": "https://www.artificialintelligence-news.com/news/per-token-ai-charging-comes-to-github-copilot/",
+    "excerpt": "As of 1st June 2026, GitHub Copilot will charge its users on the basis of the tokens they use, rather than a flat rate subscription model. The model that’s seeing the shutters closed on it is, or rather was, simple to understand and use. Users were given a set number of ‘Premium Requests’ according ...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "What LG and NVIDIA’s talks reveal about the future of physical AI",
+    "link": "https://www.artificialintelligence-news.com/news/what-lg-and-nvidia-talks-reveal-future-of-physical-ai/",
+    "excerpt": "LG is currently engaged in exploratory discussions with NVIDIA concerning physical AI, data centres, and mobility. Following a meeting in Seoul between LG CEO Ryu Jae-cheol and Madison Huang, Senior Director of Product Marketing for Omniverse and Robotics at NVIDIA, the core operational dependencies...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "A guide to APIs, MCPs, and MCP Gateways",
+    "link": "https://www.artificialintelligence-news.com/news/a-guide-to-apis-and-mcps-and-mcp-gateways/",
+    "excerpt": "APIs and MCPs are often mentioned in the same breath as ways that systems can exchange information, but they are designed differently and have different purposes. This article hopes to explain the differences and how software developers and users should approach interaction with each. An API is main...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "AI agent governance takes focus as regulators flag control gaps",
+    "link": "https://www.artificialintelligence-news.com/news/ai-agent-governance-control-gaps/",
+    "excerpt": "Australia’s financial regulator has warned financial firms that AI agent governance and assurance practices are poorly governed. The warning comes as banks and superannuation trustees expand AI in internal and customer-facing operations. The Australian Prudential Regulation Authority said it conduct...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  },
+  {
+    "title": "Big Tech just proved AI infrastructure spending works. Then it raised the bill anyway",
+    "link": "https://www.artificialintelligence-news.com/news/big-tech-ai-infrastructure-spending-q1-2026-results/",
+    "excerpt": "Every cloud beat. Every capex forecast rose. That is the two-sentence summary of the biggest earnings day of 2026, and it tells you almost everything you need to know about where Big Tech’s AI infrastructure spending actually stands right now. Microsoft, Alphabet, Meta, and Amazon collectively commi...",
+    "source": "AI News",
+    "date": "2026-05-05"
+  }
+]
