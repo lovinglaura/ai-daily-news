@@ -1,5 +1,47 @@
 [
   {
+    "title": "DeepSeek寻求融资最高500亿元人民币，6月将推出V4.1模型",
+    "link": "http://finance.sina.cn/stock/estate/2026-05-08/detail-inhxewec4353799.d.html",
+    "excerpt": "DeepSeek目标在本轮融资中筹集高达500亿元人民币（约73.5亿美元），若完成将成为中国AI公司史上最大单轮融资。公司计划6月推出V4模型的迭代版本V4.1，为企业用户配套更多工具能力，强化上下文协议(MCP)适配，投后估值有望突破3500亿元人民币。",
+    "source": "新浪财经",
+    "date": "2026-05-09"
+  },
+  {
+    "title": "三部门联合印发智能体发展实施意见，AI智能体赛道迎新政策催化",
+    "link": "http://m.toutiao.com/group/7637682019840819758/?upstream_biz=VolcEngine",
+    "excerpt": "国家网信办、国家发展改革委、工业和信息化部联合印发《智能体规范应用与创新发展实施意见》，明确\"安全可控、规范有序、创新驱动、应用牵引\"四大原则，围绕科学研究、产业发展、提振消费等方向提出19个典型应用场景，为智能体产业提供稳定政策预期。",
+    "source": "中华网",
+    "date": "2026-05-09"
+  },
+  {
+    "title": "Kimi完成20亿美元融资，估值突破200亿美元，半年累计融资超39亿美元",
+    "link": "https://c.m.163.com/news/a/KSEPQCC70556GN0R.html",
+    "excerpt": "Kimi完成约20亿美元融资，估值达200亿美元，过去五个月累计融资超39亿美元。此次融资是2026年以来全球AI领域最大的单笔一级市场交易，资金将用于编程与Agent相关产品研发，加速商业化变现。",
+    "source": "网易新闻",
+    "date": "2026-05-09"
+  },
+  {
+    "title": "阶跃星辰完成近25亿美元融资，加速港股IPO进程",
+    "link": "http://m.toutiao.com/group/7637674967983751731/?upstream_biz=VolcEngine",
+    "excerpt": "阶跃星辰完成近25亿美元融资，产业资本入场，加速港股IPO进程，是国内人形机器人领域最大规模的单轮融资之一。",
+    "source": "今日头条",
+    "date": "2026-05-09"
+  },
+  {
+    "title": "昆仑芯启动科创板上市辅导，国产AI芯片资本化进程加速",
+    "link": "https://3g.china.com/act/news/10000169/20260509/49481909.html",
+    "excerpt": "5月7日，证监会官网公布昆仑芯（北京）科技股份有限公司在科创板上市辅导备案的信息。昆仑芯专注于芯片架构、集群系统和软件生态领域，年初已向香港交易所递交了上市申请。",
+    "source": "中华网",
+    "date": "2026-05-09"
+  },
+  {
+    "title": "国内AI赛道融资潮持续，2027年前行业热度难降温",
+    "link": "http://m.toutiao.com/group/7637502541286228495/?upstream_biz=VolcEngine",
+    "excerpt": "央行推出8000亿元政策性金融工具定向支持AI产业，地方政府纷纷出台补贴政策助力国产算力、大模型突破技术瓶颈。AI作为唯一万亿级长周期赛道，吸引主权基金、养老基金、产业资本纷纷重仓布局，行业热度预计2027年前难降温。",
+    "source": "今日头条",
+    "date": "2026-05-09"
+  },
+  {
     "title": "Physical AI raises governance questions for autonomous systems",
     "link": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems/",
     "excerpt": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial...",
