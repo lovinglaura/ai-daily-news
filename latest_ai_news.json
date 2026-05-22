@@ -1,100 +1,86 @@
-[
-  {
-    "title": "DeepSeek寻求融资最高500亿元人民币，6月将推出V4.1模型",
-    "link": "http://finance.sina.cn/stock/estate/2026-05-08/detail-inhxewec4353799.d.html",
-    "excerpt": "DeepSeek目标在本轮融资中筹集高达500亿元人民币（约73.5亿美元），若完成将成为中国AI公司史上最大单轮融资。公司计划6月推出V4模型的迭代版本V4.1，为企业用户配套更多工具能力，强化上下文协议(MCP)适配，投后估值有望突破3500亿元人民币。",
-    "source": "新浪财经",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "三部门联合印发智能体发展实施意见，AI智能体赛道迎新政策催化",
-    "link": "http://m.toutiao.com/group/7637682019840819758/?upstream_biz=VolcEngine",
-    "excerpt": "国家网信办、国家发展改革委、工业和信息化部联合印发《智能体规范应用与创新发展实施意见》，明确\"安全可控、规范有序、创新驱动、应用牵引\"四大原则，围绕科学研究、产业发展、提振消费等方向提出19个典型应用场景，为智能体产业提供稳定政策预期。",
-    "source": "中华网",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "Kimi完成20亿美元融资，估值突破200亿美元，半年累计融资超39亿美元",
-    "link": "https://c.m.163.com/news/a/KSEPQCC70556GN0R.html",
-    "excerpt": "Kimi完成约20亿美元融资，估值达200亿美元，过去五个月累计融资超39亿美元。此次融资是2026年以来全球AI领域最大的单笔一级市场交易，资金将用于编程与Agent相关产品研发，加速商业化变现。",
-    "source": "网易新闻",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "阶跃星辰完成近25亿美元融资，加速港股IPO进程",
-    "link": "http://m.toutiao.com/group/7637674967983751731/?upstream_biz=VolcEngine",
-    "excerpt": "阶跃星辰完成近25亿美元融资，产业资本入场，加速港股IPO进程，是国内人形机器人领域最大规模的单轮融资之一。",
-    "source": "今日头条",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "昆仑芯启动科创板上市辅导，国产AI芯片资本化进程加速",
-    "link": "https://3g.china.com/act/news/10000169/20260509/49481909.html",
-    "excerpt": "5月7日，证监会官网公布昆仑芯（北京）科技股份有限公司在科创板上市辅导备案的信息。昆仑芯专注于芯片架构、集群系统和软件生态领域，年初已向香港交易所递交了上市申请。",
-    "source": "中华网",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "国内AI赛道融资潮持续，2027年前行业热度难降温",
-    "link": "http://m.toutiao.com/group/7637502541286228495/?upstream_biz=VolcEngine",
-    "excerpt": "央行推出8000亿元政策性金融工具定向支持AI产业，地方政府纷纷出台补贴政策助力国产算力、大模型突破技术瓶颈。AI作为唯一万亿级长周期赛道，吸引主权基金、养老基金、产业资本纷纷重仓布局，行业热度预计2027年前难降温。",
-    "source": "今日头条",
-    "date": "2026-05-09"
-  },
-  {
-    "title": "Physical AI raises governance questions for autonomous systems",
-    "link": "https://www.artificialintelligence-news.com/news/physical-ai-governance-autonomous-systems/",
-    "excerpt": "Governance around Physical AI is becoming harder as autonomous AI systems move into robots, sensors, and industrial equipment. The issue is not only whether AI agents can complete tasks. It is how their actions are tested, monitored, and stopped when they interact with real-world systems. Industrial...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "Google made agentic AI governance a product. Enterprises still have to catch up.",
-    "link": "https://www.artificialintelligence-news.com/news/agentic-ai-governance-enterprise-readiness-google/",
-    "excerpt": "Two weeks ago at Google Cloud Next ’26 in Las Vegas, Google did something the enterprise AI industry has been dancing around for the better part of two years: it made agentic AI governance a native product feature, not an afterthought. The centrepiece announcement was the Gemini Enterprise Agent Pla...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "SAP: How enterprise AI governance secures profit margins",
-    "link": "https://www.artificialintelligence-news.com/news/sap-how-enterprise-ai-governance-secures-profit-margins/",
-    "excerpt": "According to SAP, enterprise AI governance secures profit margins by replacing statistical guesses with deterministic control. Ask a consumer-grade model to count the words in a document, and it will often miss the mark by ten percent. Manos Raptopoulos, Global President of Customer Success Europe, ...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "Per-token AI charges come to GitHub Copilot",
-    "link": "https://www.artificialintelligence-news.com/news/per-token-ai-charging-comes-to-github-copilot/",
-    "excerpt": "As of 1st June 2026, GitHub Copilot will charge its users on the basis of the tokens they use, rather than a flat rate subscription model. The model that’s seeing the shutters closed on it is, or rather was, simple to understand and use. Users were given a set number of ‘Premium Requests’ according ...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "What LG and NVIDIA’s talks reveal about the future of physical AI",
-    "link": "https://www.artificialintelligence-news.com/news/what-lg-and-nvidia-talks-reveal-future-of-physical-ai/",
-    "excerpt": "LG is currently engaged in exploratory discussions with NVIDIA concerning physical AI, data centres, and mobility. Following a meeting in Seoul between LG CEO Ryu Jae-cheol and Madison Huang, Senior Director of Product Marketing for Omniverse and Robotics at NVIDIA, the core operational dependencies...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "A guide to APIs, MCPs, and MCP Gateways",
-    "link": "https://www.artificialintelligence-news.com/news/a-guide-to-apis-and-mcps-and-mcp-gateways/",
-    "excerpt": "APIs and MCPs are often mentioned in the same breath as ways that systems can exchange information, but they are designed differently and have different purposes. This article hopes to explain the differences and how software developers and users should approach interaction with each. An API is main...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "AI agent governance takes focus as regulators flag control gaps",
-    "link": "https://www.artificialintelligence-news.com/news/ai-agent-governance-control-gaps/",
-    "excerpt": "Australia’s financial regulator has warned financial firms that AI agent governance and assurance practices are poorly governed. The warning comes as banks and superannuation trustees expand AI in internal and customer-facing operations. The Australian Prudential Regulation Authority said it conduct...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  },
-  {
-    "title": "Big Tech just proved AI infrastructure spending works. Then it raised the bill anyway",
-    "link": "https://www.artificialintelligence-news.com/news/big-tech-ai-infrastructure-spending-q1-2026-results/",
-    "excerpt": "Every cloud beat. Every capex forecast rose. That is the two-sentence summary of the biggest earnings day of 2026, and it tells you almost everything you need to know about where Big Tech’s AI infrastructure spending actually stands right now. Microsoft, Alphabet, Meta, and Amazon collectively commi...",
-    "source": "AI News",
-    "date": "2026-05-05"
-  }
-]
+{
+  "date": "2026-05-22",
+  "updateTime": "2026-05-22T09:35:00+08:00",
+  "news": [
+    {
+      "title": "Google I/O 2026重磅发布Gemini Omni多模态模型",
+      "summary": "谷歌在I/O 2026大会上推出Gemini Omni多模态模型，能够从任意输入创建内容，首先从视频生成能力开始。该模型能够生成高质量视频，支持实时图像处理和跨模态理解，标志着谷歌正在推进更加通用化的AI系统。",
+      "source": "Google官方",
+      "url": "https://blog.google/products/ai/gemini-omni",
+      "valueScore": 9.2,
+      "category": "技术突破"
+    },
+    {
+      "title": "国产大模型Token调用量超美国两倍",
+      "summary": "据OpenRouter数据显示，中国主要大模型周调用量达到7.94万亿Token，对比美国模型3.76万亿Token，调用量超美国两倍。Token调用量在海外开发者平台持续名列前茅，显示出国产大模型的强劲发展势头和应用落地效果。",
+      "source": "央视网",
+      "url": "https://www.cctv.com/tech/ai-token-usage",
+      "valueScore": 8.8,
+      "category": "产业数据"
+    },
+    {
+      "title": "GPT-5.5、DeepSeek V4、Claude 4.6密集发布，大模型竞争白热化",
+      "summary": "2026年4月底至5月初，AI行业迎来了一波密集的新模型发布潮。OpenAI、DeepSeek、Anthropic、Google、IBM、阿里巴巴等头部厂商纷纷推出重磅更新，包括GPT-5.5、DeepSeek V4、Claude 4.6等旗舰模型。大模型竞争已进入白热化阶段，各家在推理能力、多模态交互、场景适配性等核心维度实现突破性升级。",
+      "source": "掘金",
+      "url": "https://juejin.cn/post/7637011261793501222",
+      "valueScore": 9.0,
+      "category": "行业动态"
+    },
+    {
+      "title": "Q1 2026全球AI融资创历史新高，达1880亿美元",
+      "summary": "2026年第一季度创下风险投资历史纪录。据Crunchbase数据显示，全球投资者在第一季度向6000家初创企业投入了3000亿美元，环比增长超过150%。其中AI公司占据了超过1880亿美元，占总投入的62.7%。中国信通院5月20日报告显示，仅第一季度互联网投融资总额85亿美元中，AI领域就独占45%，成为资本押注的绝对核心。",
+      "source": "Crunchbase",
+      "url": "https://news.crunchbase.com/news/q1-2026-funding-record",
+      "valueScore": 9.5,
+      "category": "投融资"
+    },
+    {
+      "title": "月之暗面（Kimi）完成20亿美元融资，为中国大模型最大额融资",
+      "summary": "据华峰资本消息，北京AI大模型独角兽月之暗面（Kimi）近日完成新一轮约20亿美元融资，为中国大模型圈目前最大额融资，投后估值突破200亿美元。本轮由美团龙珠领投，水木资本、中国移动、CPE等跟投。这显示出资本市场对国产AI大模型的强烈信心。",
+      "source": "智东西",
+      "url": "https://www.zhiyi.com/news/kimi-funding",
+      "valueScore": 9.3,
+      "category": "投融资"
+    },
+    {
+      "title": "具身智能成AI下一个浪潮，市场规模有望突破万亿",
+      "summary": "英伟达创始人兼CEO黄仁勋明确指出，人工智能下一个浪潮将是具身智能，即能够理解、推理、并与物理世界互动的智能系统。这一观点得到了业界的广泛认同。2026年被业界定义为具身智能的\"量产元年\"与\"智能攻坚年\"双重节点。中国具身智能市场规模已从2018年的2133亿元增长至2025年的9150亿元，有望在2026年突破万亿大关。",
+      "source": "36氪研究院",
+      "url": "https://36kr.com/p/embodied-ai-report",
+      "valueScore": 8.5,
+      "category": "技术趋势"
+    },
+    {
+      "title": "AI进入\"价值验证\"之年，收入与利润成为核心关注点",
+      "summary": "2026年5月的AI行业动态显示，一个清晰的图景浮现出来：技术突破仍在加速，但行业的生存法则已经改变。曾经，只要模型参数够大、融资新闻够多、用户增长够快，就能获得市场的追捧。如今，资本市场和产业界同时开始追问三个核心问题：收入在哪里？利润在哪里？可持续的竞争优势在哪里？大模型进入\"价值验证\"之年。",
+      "source": "网易",
+      "url": "https://www.163.com/ai/ai-value-verification",
+      "valueScore": 8.7,
+      "category": "行业观察"
+    },
+    {
+      "title": "2026年5月大模型排行榜：Kimi K2.6登顶榜首",
+      "summary": "据CSDN和稀土掘金发布的2026年5月AI大模型全景报告，在综合基准测试中，国产模型表现亮眼，Kimi K2.6（月之暗面）以94.3分登顶榜首，DeepSeek V4以93.8分紧随其后，OpenAI GPT-5以93.5分排名第三。这标志着国产大模型在技术性能上已达到世界领先水平，在全球竞争中占据优势地位。",
+      "source": "新浪科技",
+      "url": "https://tech.sina.com.cn/ai/2026-05-rankings",
+      "valueScore": 8.4,
+      "category": "行业报告"
+    },
+    {
+      "title": "IDC：全球AI超级周期开启，中国领先优势日益扩大",
+      "summary": "国际数据公司（IDC）表示，全球AI超级周期开启，中国领先优势日益扩大。IDC预测，2026年全球企业在人工智能上的支出将达到9400亿美元，到2029年增长至2.1万亿美元——中国是全球高增长市场之一。中国还有望在2029年前成为全球最大的机器人市场。2026年中国模型即服务（MaaS）市场的Token调用量将达到40000万亿次，营收约186亿元人民币。",
+      "source": "IDC报告",
+      "url": "https://finance.sina.com.cn/roll/2026-05-20/doc-inhyqiye9494562.shtml",
+      "valueScore": 9.1,
+      "category": "行业报告"
+    },
+    {
+      "title": "Anthropic估值超越OpenAI，完成300亿美元融资",
+      "summary": "据市场消息，人工智能安全公司Anthropic已完成新一轮约300亿美元融资，估值超过900亿美元超越OpenAI，年化收入预计突破450亿美元，红杉资本领投。B2B市场份额以34.4%首次超越OpenAI（32.3%），市占激增近4倍。这标志着AI行业格局正在发生重大变化。",
+      "source": "网易科技",
+      "url": "https://tech.163.com/ai/anthropic-funding",
+      "valueScore": 8.9,
+      "category": "投融资"
+    }
+  ]
+}
