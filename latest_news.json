@@ -1,82 +1,141 @@
 [
   {
-    "title": "谷歌I/O 2026发布Gemini 3.5系列模型，Flash版本推理速度达289 tokens/秒，比竞品快4倍",
-    "link": "https://www.tmtpost.com/7994207.html",
-    "excerpt": "Gemini 3.5 Flash在多项基准测试中超越前代旗舰Gemini 3.1 Pro，推理速度达289 tokens/秒，比GPT-5.5和Claude Opus 4.7快4倍，成本仅为同类顶尖模型的一半。头部企业若将80%工作负载迁移至该模型，年可节省超10亿美元。",
-    "source": "钛媒体",
-    "date": "2026-05-20",
-    "score": 98
+    "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+    "analysis": "For a quarter century, the Google search box has been one of the most recognizable interfaces in computing: a thin white rectangle, a blinking cursor, a few typed words, and a list of blue links. On Tuesday, Google will formally retire that paradigm.At its annual I/O developer conference, Google ann...",
+    "key_points": [
+      "For a quarter century, the Goo",
+      "On Tuesday, Google will formal",
+      "At its annual I/O developer co"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/google-just-redesigned-the-search-box-for-the-first-time-in-25-years-heres-why-it-matters-more-than-you-think"
   },
   {
-    "title": "Gemini Omni多模态世界模型亮相，支持任意输入输出，可实时编辑视频",
-    "link": "https://finance.sina.com.cn/7x24/2026-05-20/doc-inhyneyw2998270.shtml",
-    "excerpt": "Gemini Omni是谷歌首个支持任意模态输入输出的原生世界模型，可接收文本、图像、音频、视频等任意组合输入，生成高质量视频并支持实时编辑，理解真实世界物理规律。所有生成内容自带SynthID数字水印，可溯源验证。",
-    "source": "新浪财经",
-    "date": "2026-05-20",
-    "score": 95
+    "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+    "analysis": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega...",
+    "key_points": [
+      "Railway, a San Francisco-based",
+      "TQ Ventures led the round, wit",
+      "The investment values Railway "
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud"
   },
   {
-    "title": "Gemini Spark个人云端智能体发布，7×24小时在线，深度整合谷歌全家桶",
-    "link": "https://m.sohu.com/a/1024943155_473283/",
-    "excerpt": "Gemini Spark是谷歌推出的对标OpenClaw的个人AI智能体，运行在谷歌云专用虚拟机上，设备关机后仍可后台运行。支持自动拉取Gmail、Docs、日历内容生成工作汇报，创建自动更新的学习指南，管理日程等任务，执行敏感操作前需用户确认。",
-    "source": "搜狐科技",
-    "date": "2026-05-20",
-    "score": 93
+    "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+    "analysis": "The artificial intelligence coding revolution comes with a catch: it's expensive.Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month d...",
+    "key_points": [
+      "The artificial intelligence co",
+      "Claude Code, Anthropic's termi",
+      "But its pricing — ranging from"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free"
   },
   {
-    "title": "93个AI智能体12小时从零构建可运行操作系统，成本不足1000美元",
-    "link": "https://post.m.smzdm.com/p/120741348/",
-    "excerpt": "Antigravity 2.0升级为多Agent编排平台，在Gemini 3.5 Flash支持下可调度93个子Agent并行工作，12小时从零构建出功能完整的操作系统内核，支持运行DOOM游戏，API消耗不到1000美元。",
-    "source": "什么值得买",
-    "date": "2026-05-20",
-    "score": 90
+    "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+    "analysis": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like ...",
+    "key_points": [
+      "Alfred Wahlforss was running o",
+      "His startup, Listen Labs, need",
+      "So he spent $5,000 — a fifth o"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai"
   },
   {
-    "title": "谷歌搜索迎来25年最大改版，全面AI化，支持智能体24小时后台监控",
-    "link": "https://k.sina.cn/article_7857201856_1d45362c001905oaoq.html",
-    "excerpt": "谷歌搜索完成25年来最大升级，从传统关键词匹配升级为基于Gemini大模型的自然语言理解系统，支持多模态输入。新增信息智能体功能，可24小时后台运行监控信息，动态生成定制化mini应用，AI Mode月活已突破10亿。",
-    "source": "新浪看点",
-    "date": "2026-05-20",
-    "score": 88
+    "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+    "analysis": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o...",
+    "key_points": [
+      "Salesforce on Tuesday launched",
+      "The new Slackbot, now generall",
+      "The launch comes as Salesforce"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
   },
   {
-    "title": "DeepSeek V4发布，适配华为昇腾芯片，启动首轮融资估值超百亿美元",
-    "link": "http://jxsmlw.cn/haerbin/73101448ea6f71dc8hwr.html",
-    "excerpt": "DeepSeek新一代旗舰模型V4发布，总参数达1.6万亿，百万token上下文算力消耗仅为V3.2的1%，KV缓存占用仅15%。全面适配华为昇腾PR芯片，性能比英伟达特供版H20提升87%。同时启动首轮外部融资，目标估值超100亿美元，腾讯、阿里正洽谈入局。",
-    "source": "工人日报",
-    "date": "2026-05-20",
-    "score": 87
+    "title": "Nous Research's NousCoder-14B is an open-source coding model landing right in the Claude Code moment",
+    "analysis": "Nous Research, the open-source artificial intelligence startup backed by crypto venture firm Paradigm, released a new competitive programming model on Monday that it says matches or exceeds several larger proprietary systems — trained in just four days using 48 of Nvidia's latest B200 graphics proce...",
+    "key_points": [
+      "Nous Research, the open-source",
+      "The model, called NousCoder-14",
+      "The simultaneous developments "
+    ],
+    "category": "🤖 大模型",
+    "score": 7.9,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/nous-researchs-nouscoder-14b-is-an-open-source-coding-model-landing-right-in"
   },
   {
-    "title": "国产大模型领跑全球：月之暗面Kimi 2.6、DeepSeek V4位列全球大模型榜前二",
-    "link": "http://m.toutiao.com/group/7641770471171670579/?upstream_biz=VolcEngine",
-    "excerpt": "最新全球大模型排行榜显示，国产大模型占据前两位：月之暗面Kimi 2.6以94.3分位列第一，DeepSeek V4以93.8分位列第二。百度文心5.1将总参数压缩至上代的1/3，预训练成本仅为业界同规模模型的6%。",
-    "source": "今日头条",
-    "date": "2026-05-20",
-    "score": 85
+    "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+    "analysis": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself.The launc...",
+    "key_points": [
+      "Anthropic released Cowork on M",
+      "The launch marks a major infle",
+      "\"Cowork lets you complete non-"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.5,
+    "date": "2026-05-25",
+    "source": "AI | VentureBeat",
+    "link": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no"
   },
   {
-    "title": "工信部深化“AI+制造”专项行动，下半年落地30个国家级示范项目",
-    "link": "http://m.toutiao.com/group/7641770471171670579/?upstream_biz=VolcEngine",
-    "excerpt": "工信部今日明确重点支持智能网联新能源汽车、航空航天、人形机器人等领域，下半年落地30个国家级AI+制造示范项目，同步启动AI中小企业创业支持计划，加速AI技术向实体经济渗透。",
-    "source": "今日头条",
-    "date": "2026-05-20",
-    "score": 82
+    "title": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+    "analysis": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that w...",
+    "key_points": [
+      "The SpaceX S-1 is finally here",
+      "The filing runs to 36 pages of"
+    ],
+    "category": "📈 AI行业",
+    "score": 7.0,
+    "date": "2026-05-25",
+    "source": "AI News & Artificial Intelligence | TechCrunch",
+    "link": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/"
   },
   {
-    "title": "央行科创再贷款扩容至1.2万亿，定向支持AI、半导体、算力等14大硬科技领域",
-    "link": "http://m.toutiao.com/group/7641770471171670579/?upstream_biz=VolcEngine",
-    "excerpt": "央行宣布将科创再贷款规模扩容至1.2万亿元，定向支持人工智能、半导体、算力、航空航天等14个硬科技领域，强化产业资金供给，降低科创企业融资成本。",
-    "source": "今日头条",
-    "date": "2026-05-20",
-    "score": 80
+    "title": "Google I/O showed how the path for AI-driven science is shifting",
+    "analysis": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically t...",
+    "key_points": [
+      "During Tuesday’s Google I/O ke",
+      "” It was a striking statement—",
+      "But what struck me as I listen"
+    ],
+    "category": "💻 AI芯片",
+    "score": 7.0,
+    "date": "2026-05-25",
+    "source": "Artificial intelligence – MIT Technology Review",
+    "link": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/"
   },
   {
-    "title": "AMD上海AI开发者大会发布锐龙AI Max+处理器与ROCm 7.2平台",
-    "link": "https://www.tmtpost.com/7994207.html",
-    "excerpt": "AMD首次将AI开发者大会落地中国上海，发布锐龙AI Max+处理器（NPU性能提升35%）、Radeon AI PRO R9700显卡（FP16算力120 TFLOPS）及支持统信UOS的ROCm 7.2平台，构建端侧到云端全栈AI算力解决方案，计划在上海设立AI研发中心。",
-    "source": "钛媒体",
-    "date": "2026-05-20",
-    "score": 78
+    "title": "Roundtables: Can AI Learn to Understand the World?",
+    "analysis": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor ...",
+    "key_points": [
+      "Listen to the session or watch",
+      "Recent developments have broug",
+      "Watch a conversation with edit"
+    ],
+    "category": "🤖 大模型",
+    "score": 7.0,
+    "date": "2026-05-25",
+    "source": "Artificial intelligence – MIT Technology Review",
+    "link": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/"
   }
 ]

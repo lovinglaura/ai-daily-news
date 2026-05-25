@@ -1,86 +1,86 @@
 {
-  "date": "2026-05-22",
-  "updateTime": "2026-05-22T09:35:00+08:00",
+  "date": "2026-05-25",
+  "updateTime": "2026-05-25T09:31:51+08:00",
   "news": [
     {
-      "title": "Google I/O 2026重磅发布Gemini Omni多模态模型",
-      "summary": "谷歌在I/O 2026大会上推出Gemini Omni多模态模型，能够从任意输入创建内容，首先从视频生成能力开始。该模型能够生成高质量视频，支持实时图像处理和跨模态理解，标志着谷歌正在推进更加通用化的AI系统。",
-      "source": "Google官方",
-      "url": "https://blog.google/products/ai/gemini-omni",
-      "valueScore": 9.2,
+      "title": "阿里首次披露AI模型和应用服务收入，ARR突破80亿元",
+      "summary": "阿里公布2026财年第四季度业绩，AI相关产品收入为89.71亿元，实现连续第11个季度的三位数同比增长。管理层预计下季度将突破100亿元，年末有望达到300亿元。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
+      "valueScore": 10.0,
       "category": "技术突破"
     },
     {
-      "title": "国产大模型Token调用量超美国两倍",
-      "summary": "据OpenRouter数据显示，中国主要大模型周调用量达到7.94万亿Token，对比美国模型3.76万亿Token，调用量超美国两倍。Token调用量在海外开发者平台持续名列前茅，显示出国产大模型的强劲发展势头和应用落地效果。",
-      "source": "央视网",
-      "url": "https://www.cctv.com/tech/ai-token-usage",
-      "valueScore": 8.8,
-      "category": "产业数据"
+      "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
+      "summary": "新智元报道，OpenAI的全新推理模型破解了埃尔德什80年几何猜想，菲尔兹奖得主惊呼：数学家们，你们得坐稳了。这是人类历史上第一次，AI独立、自主地解决了一个处于数学核心领域的重大开放性难题。",
+      "source": "新浪财经",
+      "url": "http://finance.sina.cn/stock/jdts/2026-05-21/detail-inhyrrtt8277437.d.html",
+      "valueScore": 9.0,
+      "category": "技术突破"
     },
     {
-      "title": "GPT-5.5、DeepSeek V4、Claude 4.6密集发布，大模型竞争白热化",
-      "summary": "2026年4月底至5月初，AI行业迎来了一波密集的新模型发布潮。OpenAI、DeepSeek、Anthropic、Google、IBM、阿里巴巴等头部厂商纷纷推出重磅更新，包括GPT-5.5、DeepSeek V4、Claude 4.6等旗舰模型。大模型竞争已进入白热化阶段，各家在推理能力、多模态交互、场景适配性等核心维度实现突破性升级。",
-      "source": "掘金",
-      "url": "https://juejin.cn/post/7637011261793501222",
-      "valueScore": 9.0,
+      "title": "OpenAI承诺投资超 3 亿新元，在新加坡打造海外首个应用型AI实验室",
+      "summary": "OpenAI将在新加坡设立其在海外的首个应用型AI实验室，计划投资超过 3 亿新加坡元，团队规模扩大到约200个岗位，推动人工智能在多领域的实际应用。",
+      "source": "中国AI网",
+      "url": "https://www.52ai.com/33504.html",
+      "valueScore": 8.4,
       "category": "行业动态"
     },
     {
-      "title": "Q1 2026全球AI融资创历史新高，达1880亿美元",
-      "summary": "2026年第一季度创下风险投资历史纪录。据Crunchbase数据显示，全球投资者在第一季度向6000家初创企业投入了3000亿美元，环比增长超过150%。其中AI公司占据了超过1880亿美元，占总投入的62.7%。中国信通院5月20日报告显示，仅第一季度互联网投融资总额85亿美元中，AI领域就独占45%，成为资本押注的绝对核心。",
-      "source": "Crunchbase",
-      "url": "https://news.crunchbase.com/news/q1-2026-funding-record",
-      "valueScore": 9.5,
+      "title": "Anthropic B2B 市场份额首超 OpenAI，硅谷权力版图重构",
+      "summary": "Anthropic在企业级应用市场的份额首次超越OpenAI，达到34.4%，OpenAI下滑至32.3%。Anthropic的市场占有率在过去一年实现了惊人的四倍增长。",
+      "source": "中国AI网",
+      "url": "https://www.52ai.com/33241.html",
+      "valueScore": 8.3,
+      "category": "行业动态"
+    },
+    {
+      "title": "OpenAI将提交IPO文件，最早本周五秘密申请上市",
+      "summary": "OpenAI正与包括高盛和摩根士丹利在内的投行合作，准备在未来几天或几周内秘密提交IPO申请文件，最早可能于本周五递交，计划今年9月完成上市。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/zmt/2026-05-21/doc-inhyshrf6319644.shtml",
+      "valueScore": 8.0,
       "category": "投融资"
     },
     {
-      "title": "月之暗面（Kimi）完成20亿美元融资，为中国大模型最大额融资",
-      "summary": "据华峰资本消息，北京AI大模型独角兽月之暗面（Kimi）近日完成新一轮约20亿美元融资，为中国大模型圈目前最大额融资，投后估值突破200亿美元。本轮由美团龙珠领投，水木资本、中国移动、CPE等跟投。这显示出资本市场对国产AI大模型的强烈信心。",
-      "source": "智东西",
-      "url": "https://www.zhiyi.com/news/kimi-funding",
-      "valueScore": 9.3,
-      "category": "投融资"
+      "title": "字节跳动AI基建投入上调25%至2000亿元，日均投入超5.5亿元",
+      "summary": "字节跳动上调了2026年AI基础设施资本支出预算，从此前规划的1600亿元提升25%至2000亿元，日均投入超5.5亿元。2000亿元预算中，850亿元专项用于AI芯片采购。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
+      "valueScore": 7.8,
+      "category": "行业动态"
     },
     {
-      "title": "具身智能成AI下一个浪潮，市场规模有望突破万亿",
-      "summary": "英伟达创始人兼CEO黄仁勋明确指出，人工智能下一个浪潮将是具身智能，即能够理解、推理、并与物理世界互动的智能系统。这一观点得到了业界的广泛认同。2026年被业界定义为具身智能的\"量产元年\"与\"智能攻坚年\"双重节点。中国具身智能市场规模已从2018年的2133亿元增长至2025年的9150亿元，有望在2026年突破万亿大关。",
-      "source": "36氪研究院",
-      "url": "https://36kr.com/p/embodied-ai-report",
-      "valueScore": 8.5,
+      "title": "Figure机器人连续工作91小时，刷新机器人连续工作纪录",
+      "summary": "美国机器人公司Figure开直播，派3台Figure 03人形机器人在工厂产线上分拣快递包裹。截至发稿，3名机器人已在直播中轮班工作超过91个小时，刷新了机器人连续工作纪录。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
+      "valueScore": 7.6,
       "category": "技术趋势"
     },
     {
-      "title": "AI进入\"价值验证\"之年，收入与利润成为核心关注点",
-      "summary": "2026年5月的AI行业动态显示，一个清晰的图景浮现出来：技术突破仍在加速，但行业的生存法则已经改变。曾经，只要模型参数够大、融资新闻够多、用户增长够快，就能获得市场的追捧。如今，资本市场和产业界同时开始追问三个核心问题：收入在哪里？利润在哪里？可持续的竞争优势在哪里？大模型进入\"价值验证\"之年。",
-      "source": "网易",
-      "url": "https://www.163.com/ai/ai-value-verification",
-      "valueScore": 8.7,
-      "category": "行业观察"
+      "title": "OpenAI 发布三款实时语音模型，GPT-5 级推理能力落地",
+      "summary": "OpenAI推出三款全新实时语音模型：GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper。GPT-Realtime-2是首个具备GPT-5级推理能力的语音工具，能进行复杂逻辑推理。",
+      "source": "中国AI网",
+      "url": "https://www.52ai.com/32954.html",
+      "valueScore": 7.5,
+      "category": "技术突破"
     },
     {
-      "title": "2026年5月大模型排行榜：Kimi K2.6登顶榜首",
-      "summary": "据CSDN和稀土掘金发布的2026年5月AI大模型全景报告，在综合基准测试中，国产模型表现亮眼，Kimi K2.6（月之暗面）以94.3分登顶榜首，DeepSeek V4以93.8分紧随其后，OpenAI GPT-5以93.5分排名第三。这标志着国产大模型在技术性能上已达到世界领先水平，在全球竞争中占据优势地位。",
-      "source": "新浪科技",
-      "url": "https://tech.sina.com.cn/ai/2026-05-rankings",
-      "valueScore": 8.4,
-      "category": "行业报告"
+      "title": "Google发布用于Android系统的Gemini intelligence，比苹果先一步推出移动端AI操作系统",
+      "summary": "Google发布用于Android系统的Gemini intelligence，用户可以通过语音助手下达指令让AI帮自己叫车或填写复杂表单，识别照片或邮件中的商品并打开购物App。",
+      "source": "新浪财经",
+      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
+      "valueScore": 7.5,
+      "category": "技术突破"
     },
     {
-      "title": "IDC：全球AI超级周期开启，中国领先优势日益扩大",
-      "summary": "国际数据公司（IDC）表示，全球AI超级周期开启，中国领先优势日益扩大。IDC预测，2026年全球企业在人工智能上的支出将达到9400亿美元，到2029年增长至2.1万亿美元——中国是全球高增长市场之一。中国还有望在2029年前成为全球最大的机器人市场。2026年中国模型即服务（MaaS）市场的Token调用量将达到40000万亿次，营收约186亿元人民币。",
-      "source": "IDC报告",
-      "url": "https://finance.sina.com.cn/roll/2026-05-20/doc-inhyqiye9494562.shtml",
-      "valueScore": 9.1,
-      "category": "行业报告"
-    },
-    {
-      "title": "Anthropic估值超越OpenAI，完成300亿美元融资",
-      "summary": "据市场消息，人工智能安全公司Anthropic已完成新一轮约300亿美元融资，估值超过900亿美元超越OpenAI，年化收入预计突破450亿美元，红杉资本领投。B2B市场份额以34.4%首次超越OpenAI（32.3%），市占激增近4倍。这标志着AI行业格局正在发生重大变化。",
-      "source": "网易科技",
-      "url": "https://tech.163.com/ai/anthropic-funding",
-      "valueScore": 8.9,
-      "category": "投融资"
+      "title": "SpaceX官宣重大布局 xAI解散并入开启太空算力新时代",
+      "summary": "SpaceX宣布解散xAI，将其并入SpaceX，合并后的新品牌名为SpaceXAI。与Anthropic达成合作，将孟菲斯Colossus 1数据中心的全部算力提供给Anthropic，开启太空算力时代。",
+      "source": "中华网",
+      "url": "https://news.china.com/socialgd/10000169/20260508/49480560.html",
+      "valueScore": 7.0,
+      "category": "行业动态"
     }
   ]
 }
