@@ -1,86 +1,78 @@
 {
-  "date": "2026-05-25",
-  "updateTime": "2026-05-25T09:31:51+08:00",
+  "date": "2026-05-26",
+  "updateTime": "2026-05-26T09:29:52+08:00",
   "news": [
     {
-      "title": "阿里首次披露AI模型和应用服务收入，ARR突破80亿元",
-      "summary": "阿里公布2026财年第四季度业绩，AI相关产品收入为89.71亿元，实现连续第11个季度的三位数同比增长。管理层预计下季度将突破100亿元，年末有望达到300亿元。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
-      "valueScore": 10.0,
+      "title": "AI breakthrough cuts energy use by 100x while boosting accuracy",
+      "summary": "Tufts University National Laboratory的研究突破，将AI能耗降低100倍同时提升准确率。",
+      "source": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+      "valueScore": 8.5,
       "category": "技术突破"
     },
     {
-      "title": "OpenAI彻底震撼数学界，80年核心猜想被破解！菲尔兹奖得主惊呼坐不稳",
-      "summary": "新智元报道，OpenAI的全新推理模型破解了埃尔德什80年几何猜想，菲尔兹奖得主惊呼：数学家们，你们得坐稳了。这是人类历史上第一次，AI独立、自主地解决了一个处于数学核心领域的重大开放性难题。",
-      "source": "新浪财经",
-      "url": "http://finance.sina.cn/stock/jdts/2026-05-21/detail-inhyrrtt8277437.d.html",
-      "valueScore": 9.0,
-      "category": "技术突破"
-    },
-    {
-      "title": "OpenAI承诺投资超 3 亿新元，在新加坡打造海外首个应用型AI实验室",
-      "summary": "OpenAI将在新加坡设立其在海外的首个应用型AI实验室，计划投资超过 3 亿新加坡元，团队规模扩大到约200个岗位，推动人工智能在多领域的实际应用。",
-      "source": "中国AI网",
-      "url": "https://www.52ai.com/33504.html",
+      "title": "Sony AI Announces Breakthrough Research in Real-World Artificial Intelligence and Robotics",
+      "summary": "Sony AI宣布在机器人和AI领域的重大突破，发布项目Ace，这是首个已知的现实世界自主系统。",
+      "source": "Sony AI",
+      "url": "https://ai.sony/news/sony-ai-announces-breakthrough-research-in-real-world-artificial-intelligence-and-robotics",
       "valueScore": 8.4,
-      "category": "行业动态"
+      "category": "技术突破"
     },
     {
-      "title": "Anthropic B2B 市场份额首超 OpenAI，硅谷权力版图重构",
-      "summary": "Anthropic在企业级应用市场的份额首次超越OpenAI，达到34.4%，OpenAI下滑至32.3%。Anthropic的市场占有率在过去一年实现了惊人的四倍增长。",
-      "source": "中国AI网",
-      "url": "https://www.52ai.com/33241.html",
+      "title": "OpenAI's Latest AI Models, Google Gemini Evolution, and Major Investment in Anthropic",
+      "summary": "OpenAI推出最新的AI模型，Google Gemini持续进化，Anthropic获得重大投资。",
+      "source": "IT Explore",
+      "url": "https://itexplore.org/columns/openai-google-gemini-anthropic-ai-updates/",
       "valueScore": 8.3,
-      "category": "行业动态"
+      "category": "产品发布"
     },
     {
-      "title": "OpenAI将提交IPO文件，最早本周五秘密申请上市",
-      "summary": "OpenAI正与包括高盛和摩根士丹利在内的投行合作，准备在未来几天或几周内秘密提交IPO申请文件，最早可能于本周五递交，计划今年9月完成上市。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/zmt/2026-05-21/doc-inhyshrf6319644.shtml",
-      "valueScore": 8.0,
-      "category": "投融资"
+      "title": "New LLM Releases April 2026: Every Major Model Launch This Month",
+      "summary": "2026年4月是大语言模型发布最密集的月份之一。OpenAI发布GPT-6，Anthropic预览Claude Mythos。",
+      "source": "FAZM AI",
+      "url": "https://fazm.ai/blog/new-llm-releases-april-2026",
+      "valueScore": 8.1,
+      "category": "产品发布"
     },
     {
-      "title": "字节跳动AI基建投入上调25%至2000亿元，日均投入超5.5亿元",
-      "summary": "字节跳动上调了2026年AI基础设施资本支出预算，从此前规划的1600亿元提升25%至2000亿元，日均投入超5.5亿元。2000亿元预算中，850亿元专项用于AI芯片采购。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
-      "valueScore": 7.8,
-      "category": "行业动态"
-    },
-    {
-      "title": "Figure机器人连续工作91小时，刷新机器人连续工作纪录",
-      "summary": "美国机器人公司Figure开直播，派3台Figure 03人形机器人在工厂产线上分拣快递包裹。截至发稿，3名机器人已在直播中轮班工作超过91个小时，刷新了机器人连续工作纪录。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
-      "valueScore": 7.6,
-      "category": "技术趋势"
-    },
-    {
-      "title": "OpenAI 发布三款实时语音模型，GPT-5 级推理能力落地",
-      "summary": "OpenAI推出三款全新实时语音模型：GPT-Realtime-2、GPT-Realtime-Translate和GPT-Realtime-Whisper。GPT-Realtime-2是首个具备GPT-5级推理能力的语音工具，能进行复杂逻辑推理。",
-      "source": "中国AI网",
-      "url": "https://www.52ai.com/32954.html",
-      "valueScore": 7.5,
+      "title": "截止2026年5月26日最新AI动向",
+      "summary": "DeepMind数学AI震惊世界：发布AlphaProof Nexus，一夜连破9道悬而未决几十年的Erdős开放难题。",
+      "source": "今日头条",
+      "url": "https://www.toutiao.com/w/1866198786528268/?upstream_biz=VolcEngine",
+      "valueScore": 7.7,
       "category": "技术突破"
     },
     {
-      "title": "Google发布用于Android系统的Gemini intelligence，比苹果先一步推出移动端AI操作系统",
-      "summary": "Google发布用于Android系统的Gemini intelligence，用户可以通过语音助手下达指令让AI帮自己叫车或填写复杂表单，识别照片或邮件中的商品并打开购物App。",
-      "source": "新浪财经",
-      "url": "https://finance.sina.com.cn/wm/2026-05-17/doc-inhyfhfm8724870.shtml",
-      "valueScore": 7.5,
+      "title": "AI科技热点日报 | AI Hot News Daily 2026年5月19日",
+      "summary": "大模型技术突破、物理AI成为行业竞争焦点、AI Agent智能体应用。",
+      "source": "CSDN博客",
+      "url": "https://blog.csdn.net/haohaizi_liu/article/details/161221922",
+      "valueScore": 7.7,
       "category": "技术突破"
     },
     {
-      "title": "SpaceX官宣重大布局 xAI解散并入开启太空算力新时代",
-      "summary": "SpaceX宣布解散xAI，将其并入SpaceX，合并后的新品牌名为SpaceXAI。与Anthropic达成合作，将孟菲斯Colossus 1数据中心的全部算力提供给Anthropic，开启太空算力时代。",
-      "source": "中华网",
-      "url": "https://news.china.com/socialgd/10000169/20260508/49480560.html",
-      "valueScore": 7.0,
-      "category": "行业动态"
+      "title": "【2026年4月26日 AI前沿快讯】国产大模型全面超车、GPT-6即将上线、AI搜索彻底改写行业格局",
+      "summary": "国产大模型性能实现跨越式突破，斯坦福AI指数报告显示中美模型差距缩至2.7%。",
+      "source": "CSDN博客",
+      "url": "https://blog.csdn.net/2601_95533136/article/details/160522015",
+      "valueScore": 7.7,
+      "category": "技术突破"
+    },
+    {
+      "title": "AI热点资讯日报 - 2026年5月14日技术与市场动态全面解析",
+      "summary": "OpenAI正式发布GPT-5，这是迄今为止最先进的AI系统。相较于前代模型，GPT-5在智能水平上实现了重大飞跃。",
+      "source": "51CTO博客",
+      "url": "https://blog.51cto.com/u_16213606/14603751",
+      "valueScore": 7.3,
+      "category": "产品发布"
+    },
+    {
+      "title": "今日AI头条：技术竞赛+盈利拐点+政策护航【2026年5月26日】",
+      "summary": "华为发布韬定律，提出用时间缩微代替几何缩微的方法，计划2031年高端芯片性能对标1.4纳米制程。",
+      "source": "今日头条",
+      "url": "http://m.toutiao.com/group/7643963134298735138/?upstream_biz=VolcEngine",
+      "valueScore": 6.9,
+      "category": "产品发布"
     }
   ]
 }
